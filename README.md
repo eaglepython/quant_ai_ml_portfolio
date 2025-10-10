@@ -11,8 +11,6 @@
 
 ## 🏆 **Elite Performance Summary**
 
-![Portfolio Performance Summary](portfolio_performance_summary.png)
-
 ### **🚀 NEW: Ultra-High-Performance Systems**
 | System | Annual Return | Sharpe Ratio | Accuracy | Latency | Status |
 |--------|---------------|--------------|----------|---------|---------|
@@ -21,13 +19,17 @@
 | **Multi-Armed Bandit** | **15.3%** | **0.87** | **89%** | **<1s** | ✅ LIVE |
 | **Live Trading Demo** | **48.6%** | **1.01** | **N/A** | **Real-time** | ✅ VERIFIED |
 
-![Performance Metrics Heatmap](performance_metrics_heatmap.png)
-
 ### **💰 Verified Trading Results**
 - **Total Profits**: $12.3M (366 days live trading)
 - **Win Rate**: 89% across 2,847 trades
 - **Max Drawdown**: -8.3% (exceptional risk control)
 - **Systems Capacity**: $500M+ AUM per strategy
+
+### **📊 Performance Dashboard**
+
+![Portfolio Performance Summary](portfolio_performance_summary.png)
+
+![Performance Metrics Heatmap](performance_metrics_heatmap.png)
 
 ---
 
