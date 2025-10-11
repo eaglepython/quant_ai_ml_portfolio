@@ -1,6 +1,6 @@
 #  Joseph Bidias, PhD - Quantitative Research & AI/ML Portfolio
 
-## Elite Quantita### 🚀 **Current Professional Status**
+
 - **Senior Quantitative Finance Engineer & Budget Analyst** | Bidias Capital Consulting LLC (2024-Present)
 - **Live Trading Platform**: Operating with **28.4% annual returns** and 1.89 Sharpe ratioe Researcher | Financial Engineering | Machine Learning Specialist
 
