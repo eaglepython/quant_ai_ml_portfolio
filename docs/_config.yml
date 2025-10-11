@@ -1,23 +1,47 @@
-# Joseph Bidias - Elite Quantitative Researcher Portfolio
+# Dr. Joseph Bidias, PhD - Elite Quantitative Researcher Portfolio
+# GitHub Pages Jekyll Configuration
 
-## GitHub Pages Configuration
+title: "Dr. Joseph Bidias, PhD - Quantitative Research & AI/ML Portfolio"
+description: "Elite Quantitative Researcher | Financial Engineering | Machine Learning Specialist"
+url: "https://eaglepython.github.io"
+baseurl: "/QUANT_AI_ML_PORTOFOLIO"
 
-This repository contains a professional portfolio website showcasing elite quantitative research and AI/ML expertise.
+# Author Information
+author:
+  name: "Dr. Joseph Bidias, PhD"
+  email: "bidias_consulting@outlook.com"
+  linkedin: "https://linkedin.com/in/joseph-bidias"
+  github: "https://github.com/eaglepython"
 
-### 🚀 Live Website
-**URL**: https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/
+# GitHub Pages Settings
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
 
-### 📋 Setup Instructions
+# Enable relative links
+relative_links:
+  enabled: true
+  collections: true
 
-#### 1. GitHub Pages Configuration
-1. Go to repository **Settings** → **Pages**
-2. Set **Source** to "Deploy from a branch"
-3. Select **Branch**: `main`
-4. Set **Folder** to `/docs`
-5. Click **Save**
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
 
-#### 2. Repository Settings
-- **Repository Name**: `QUANT_AI_ML_PORTOFOLIO`
+# Include/Exclude files
+include:
+  - "*.html"
+  - "*.css"
+  - "*.js"
+  - "*.jpg"
+  - "*.png"
+  - "*.pdf"
+
+exclude:
+  - README.md
+  - package.json
+  - node_modules/
+  - .git/
+  - .github/
 - **Visibility**: Public (required for GitHub Pages)
 - **Pages Source**: `/docs` folder from `main` branch
 
