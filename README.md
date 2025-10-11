@@ -1,9 +1,50 @@
-# Dr. Joseph Bidias, PhD - Quantitative Res### 📜 **Current Professional Status**
+# Dr. Joseph Bidias, PhD - Quantitative Research & AI/ML Portfolio
+
+## Elite Quantita### 🚀 **Current Professional Status**
 - **Senior Quantitative Finance Engineer & Budget Analyst** | Bidias Capital Consulting LLC (2024-Present)
-- **Live Trading Platform**: Operating with **28.4% annual returns** and 1.89 Sharpe ratio
-- **Healthcare AI Systems**: Serving **200,000+ users** with governance platforms
-- **PhD in Integrative Medicine** | Quantum University (2022)
-- **Master's in Financial Engineering** | WorldQuant University (2025) & AI/ML Portfolio
+- **Live Trading Platform**: Operating with **28.4% annual returns** and 1.89 Sharpe ratioe Researcher | Financial Engineering | Machine Learning Specialist
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![Machine Learning](https://img.shields.io/badge/ML-TensorFlow%20%7C%20PyTorch%20%7C%20Scikit--learn-orange.svg)](https://scikit-learn.org/)
+[![Deep Learning](https://img.shields.io/badge/DL-LSTM%20%7C%20CNN%20%7C%20Transformers-red.svg)](https://tensorflow.org/)
+[![Quant Finance](https://img.shields.io/badge/Quant-Portfolio%20Optimization%20%7C%20Risk%20Management-green.svg)](https://quantlib.org/)
+[![Live Trading](https://img.shields.io/badge/Live%20Trading-48.6%25%20Annual%20Return-gold.svg)](#)
+[![HFT](https://img.shields.io/badge/HFT-5μs%20Latency%20%7C%2023.7%25%20Return-purple.svg)](#)
+
+---
+
+## 📞 **Contact & Collaboration**
+
+### **🤝 Professional Availability**
+Dr. Joseph Bidias is **actively seeking senior quantitative research positions** and consulting opportunities in:
+- **Quantitative Finance** | Hedge Funds, Investment Banks, Fintech
+- **AI/ML Leadership** | Senior Data Scientist, ML Engineering Manager
+- **Healthcare Technology** | AI Governance, Predictive Analytics
+- **Enterprise Consulting** | Trading Systems, Risk Management
+
+### **📧 Contact Information**
+- **Primary Email**: [bidias_consulting@outlook.com](mailto:bidias_consulting@outlook.com)
+- **Secondary Email**: [rodabeck777@gmail.com](mailto:rodabeck777@gmail.com)  
+- **Phone**: [(214) 886-3785](tel:+12148863785)
+- **LinkedIn**: [linkedin.com/in/joseph-bidias](https://linkedin.com/in/joseph-bidias)
+- **Location**: Dallas, TX (Remote Available Worldwide)
+
+### **💼 Portfolio Access**
+- **🚀 Live Portfolio**: [View Portfolio](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/index.html)
+- **📄 Professional Resume**: [Download Resume](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/resume.html)
+- **💾 Source Code**: [GitHub Repository](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO)
+
+---
+
+## 📄 **License**
+
+This portfolio is licensed under the MIT License. See `LICENSE` file for details.
+
+---
+
+*Last Updated: October 10, 2025*  
+*Portfolio Version: 2.0 - Complete Documentation*  
+*Status: ✅ COMPREHENSIVE & INTERVIEW-READY*rldQuant University (2025) & AI/ML Portfolio
 
 ## Elite Quantitative Researcher | Financial Engineering | Machine Learning Specialist
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
@@ -44,7 +85,7 @@
 **Dr. Joseph Bidias, PhD**  
 🎓 **PhD in Integrative Medicine | MS Financial Engineering | Senior Quantitative Researcher** | **7+ Years Experience**  
 📧 rodabeck777@gmail.com | bidias_consulting@outlook.com | 📞 (214) 886-3785  
-🔗 [GitHub](https://github.com/eaglepython) | 💼 [LinkedIn](https://linkedin.com/in/joseph-bidias) | 📄 [Resume](https://eaglepython.github.io/Software-Engineer-Portofolio/resume.html)
+🔗 [GitHub](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO) | 💼 [LinkedIn](https://linkedin.com/in/joseph-bidias) | 📄 [Resume](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/resume.html)
 
 ### � **Current Professional Status**
 - **Senior Quantitative Finance Engineer & Budget Analyst** | Bidias Capital Consulting LLC (2024-Present)
@@ -58,6 +99,15 @@
 - **Quantitative Finance**: Portfolio optimization, algorithmic trading, risk management
 - **Healthcare Technology**: Predictive modeling serving 200K+ patients, $2M+ savings
 - **Full-Stack Development**: React.js, Node.js, Python, cloud architecture
+
+---
+
+## 🌐 **Live Portfolio URLs**
+
+### **📊 Primary Portfolio & Resume**
+- **🚀 Main Portfolio**: [https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/index.html](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/index.html)
+- **📄 Professional Resume**: [https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/resume.html](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/resume.html)
+- **💾 GitHub Repository**: [https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO)
 
 ---
 
