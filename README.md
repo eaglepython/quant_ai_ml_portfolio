@@ -1,5 +1,6 @@
 #  Joseph Bidias, PhD - Quantitative Research & AI/ML Portfolio
 
+<img width="1604" height="555" alt="image" src="https://github.com/user-attachments/assets/eceb8a11-4aee-490a-8fc4-cc030112750b" />
 
 - **Senior Quantitative Finance Engineer & Budget Analyst** | Bidias Capital Consulting LLC (2024-Present)
 - **Live Trading Platform**: Operating with **28.4% annual returns** and 1.89 Sharpe ratioe Researcher | Financial Engineering | Machine Learning Specialist
