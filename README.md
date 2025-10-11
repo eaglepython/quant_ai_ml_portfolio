@@ -43,9 +43,6 @@ This portfolio is licensed under the MIT License. See `LICENSE` file for details
 
 ---
 
-*Last Updated: October 10, 2025*  
-*Portfolio Version: 2.0 - Complete Documentation*  
-*Status: ✅ COMPREHENSIVE & INTERVIEW-READY*rldQuant University (2025) & AI/ML Portfolio
 
 ## Elite Quantitative Researcher | Financial Engineering | Machine Learning Specialist
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
