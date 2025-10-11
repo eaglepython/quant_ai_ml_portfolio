@@ -162,6 +162,7 @@ This portfolio is licensed under the MIT License. See `LICENSE` file for details
 ## 🎓 **Education & Certifications**
 
 ### **Formal Education**
+- **PhD in Integrative Medicine** |  Quantum University (2022)
 - **Master of Science in Financial Engineering** | WorldQuant University (2025)
 - **Bachelor of Science in Biomedical Engineering** | University of Cameron (2013)
 
