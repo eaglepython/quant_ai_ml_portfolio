@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph Bidias - Elite Quantitative Researcher & AI/ML Specialist</title>
+    
+    <!-- React and Babel -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Lucide React Icons -->
+    <script src="https://unpkg.com/lucide-react@latest/dist/umd/lucide-react.js"></script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    animation: {
+                        'pulse': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'bounce': 'bounce 1s infinite',
+                    },
+                    colors: {
+                        'gray-950': '#030712',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: #030712;
+            color: white;
+            overflow-x: hidden;
+        }
+        
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Floating AI Elements for Simple Portfolio */
+        .ai-float-1 {
+            position: fixed;
+            top: 20%;
+            right: 10%;
+            width: 120px;
+            height: 120px;
+            background: url('quantum-chip.jpg') no-repeat center;
+            background-size: contain;
+            opacity: 0.1;
+            z-index: 1000;
+            animation: aiFloat1 10s ease-in-out infinite;
+            pointer-events: none;
+            transform: rotate(20deg);
+            mask: radial-gradient(circle, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 50%, transparent 80%);
+            -webkit-mask: radial-gradient(circle, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 50%, transparent 80%);
+        }
+        
+        .ai-float-2 {
+            position: fixed;
+            bottom: 25%;
+            left: 5%;
+            width: 90px;
+            height: 90px;
+            background: url('quantum-chip.jpg') no-repeat center;
+            background-size: contain;
+            opacity: 0.08;
+            z-index: 1000;
+            animation: aiFloat2 12s ease-in-out infinite reverse;
+            pointer-events: none;
+            transform: rotate(-15deg);
+            mask: radial-gradient(circle, rgba(0,0,0,0.6) 0%, transparent 70%);
+            -webkit-mask: radial-gradient(circle, rgba(0,0,0,0.6) 0%, transparent 70%);
+        }
+        
+        .ai-float-3 {
+            position: fixed;
+            top: 70%;
+            right: 3%;
+            width: 80px;
+            height: 80px;
+            background: url('quantum-chip.jpg') no-repeat center;
+            background-size: contain;
+            opacity: 0.06;
+            z-index: 1000;
+            animation: aiFloat3 14s ease-in-out infinite;
+            pointer-events: none;
+            transform: rotate(45deg);
+            mask: radial-gradient(circle, rgba(0,0,0,0.5) 0%, transparent 60%);
+            -webkit-mask: radial-gradient(circle, rgba(0,0,0,0.5) 0%, transparent 60%);
+        }
+        
+        @keyframes aiFloat1 {
+            0%, 100% {
+                transform: translateY(0px) rotate(20deg);
+                opacity: 0.08;
+            }
+            50% {
+                transform: translateY(-30px) rotate(30deg);
+                opacity: 0.12;
+            }
+        }
+        
+        @keyframes aiFloat2 {
+            0%, 100% {
+                transform: translateX(0px) rotate(-15deg);
+                opacity: 0.06;
+            }
+            50% {
+                transform: translateX(20px) rotate(-5deg);
+                opacity: 0.10;
+            }
+        }
+        
+        @keyframes aiFloat3 {
+            0%, 100% {
+                transform: translateY(0px) translateX(0px) rotate(45deg);
+                opacity: 0.04;
+            }
+            50% {
+                transform: translateY(-20px) translateX(-15px) rotate(55deg);
+                opacity: 0.08;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Floating AI Elements -->
+    <div class="ai-float-1"></div>
+    <div class="ai-float-2"></div>
+    <div class="ai-float-3"></div>
+    
+    <div id="app"></div>
+    
+    <script type="text/babel">
+        const { useState, useEffect } = React;
+        const { 
+            Github, Linkedin, Mail, Phone, ExternalLink, 
+            TrendingUp, DollarSign, Target, Users, 
+            ChevronDown, Menu, X, FileText 
+        } = lucideReact;
+
+        const QuantPortfolio = () => {
+            const [scrollY, setScrollY] = useState(0);
+            const [menuOpen, setMenuOpen] = useState(false);
+            const [typedText, setTypedText] = useState('');
+            
+            const titles = [
+                'Quantitative Researcher',
+                'AI/ML Specialist',
+                'Senior Software Engineer',
+                'Financial Engineer',
+                'The 7th Sense'
+            ];
+            const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
+
+            useEffect(() => {
+                const handleScroll = () => setScrollY(window.scrollY);
+                window.addEventListener('scroll', handleScroll);
+                return () => window.removeEventListener('scroll', handleScroll);
+            }, []);
+
+            useEffect(() => {
+                let index = 0;
+                const currentTitle = titles[currentTitleIndex];
+                const interval = setInterval(() => {
+                    if (index <= currentTitle.length) {
+                        setTypedText(currentTitle.slice(0, index));
+                        index++;
+                    } else {
+                        clearInterval(interval);
+                        setTimeout(() => {
+                            setCurrentTitleIndex((prev) => (prev + 1) % titles.length);
+                        }, 2000);
+                    }
+                }, 100);
+                return () => clearInterval(interval);
+            }, [currentTitleIndex]);
+
+            const liveMetrics = [
+                { 
+                    icon: TrendingUp, 
+                    label: 'LSTM HFT', 
+                    value: '23.7%',
+                    subtext: '5μs Latency',
+                    color: 'text-green-400',
+                    gradient: 'from-green-500 to-emerald-500'
+                },
+                { 
+                    icon: DollarSign, 
+                    label: 'Live Trading', 
+                    value: '48.6%',
+                    subtext: 'Annual Return',
+                    color: 'text-yellow-400',
+                    gradient: 'from-yellow-500 to-orange-500'
+                },
+                { 
+                    icon: Target, 
+                    label: 'Ensemble Alpha', 
+                    value: '18.2%',
+                    subtext: '2.1 Sharpe',
+                    color: 'text-blue-400',
+                    gradient: 'from-blue-500 to-cyan-500'
+                },
+                { 
+                    icon: Users, 
+                    label: 'Healthcare AI', 
+                    value: '200K+',
+                    subtext: 'Users Served',
+                    color: 'text-purple-400',
+                    gradient: 'from-purple-500 to-pink-500'
+                }
+            ];
+
+            const repositoryProjects = [
+                {
+                    title: 'Deep Learning Finance (DLF)',
+                    category: 'Deep Learning',
+                    description: 'Advanced deep learning models for financial markets including LSTM networks, attention mechanisms, and transformer architectures.',
+                    metrics: ['95.2% Accuracy', '0.03 MSE', '2.1 Sharpe Ratio'],
+                    tech: ['TensorFlow', 'PyTorch', 'Keras'],
+                    gradient: 'from-blue-500 to-cyan-500'
+                },
+                {
+                    title: 'Healthcare Analytics Portfolio',
+                    category: 'Healthcare AI',
+                    description: 'Comprehensive healthcare analytics platform with predictive modeling and clinical decision support serving 200K+ users.',
+                    metrics: ['200K+ Users', '85% Accuracy', '$2M+ Savings'],
+                    tech: ['Scikit-learn', 'XGBoost', 'Streamlit'],
+                    gradient: 'from-green-500 to-emerald-500'
+                },
+                {
+                    title: 'Predictive Analytics - Diabetes',
+                    category: 'Healthcare ML',
+                    description: 'Machine learning system for diabetes risk prediction with real-time monitoring and personalized recommendations.',
+                    metrics: ['89% Prediction Accuracy', '25% Risk Reduction'],
+                    tech: ['Python', 'Scikit-learn', 'Plotly'],
+                    gradient: 'from-purple-500 to-pink-500'
+                },
+                {
+                    title: 'Portfolio Management Systems',
+                    category: 'Portfolio Management',
+                    description: 'Advanced portfolio management with risk analysis, performance attribution, and optimization algorithms.',
+                    metrics: ['18.2% Returns', '2.1 Sharpe Ratio'],
+                    tech: ['Python', 'QuantLib', 'NumPy'],
+                    gradient: 'from-yellow-500 to-orange-500'
+                },
+                {
+                    title: 'A/B Testing Framework',
+                    category: 'Statistical Testing',
+                    description: 'Comprehensive A/B testing platform with statistical analysis and automated result interpretation.',
+                    metrics: ['95% Statistical Power', '15% Conversion Lift'],
+                    tech: ['Python', 'SciPy', 'Statsmodels'],
+                    gradient: 'from-indigo-500 to-purple-500'
+                },
+                {
+                    title: 'Derivatives Trading Systems',
+                    category: 'Quantitative Finance',
+                    description: 'Advanced derivatives pricing and trading systems with real-time risk management.',
+                    metrics: ['23.7% Returns', '5μs Latency'],
+                    tech: ['Python', 'C++', 'QuantLib'],
+                    gradient: 'from-cyan-500 to-blue-500'
+                }
+            ];
+
+            return React.createElement('div', { className: "bg-gray-950 text-white min-h-screen overflow-x-hidden" },
+                // Animated background
+                React.createElement('div', { className: "fixed inset-0 overflow-hidden pointer-events-none" },
+                    React.createElement('div', { className: "absolute top-1/4 -left-48 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-pulse" }),
+                    React.createElement('div', { className: "absolute bottom-1/4 -right-48 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl animate-pulse", style: { animationDelay: '1s' } })
+                ),
+
+                // Navigation
+                React.createElement('nav', { 
+                    className: `fixed top-0 w-full z-50 transition-all duration-300 ${scrollY > 50 ? 'bg-gray-900/95 backdrop-blur-lg shadow-lg' : 'bg-transparent'}`
+                },
+                    React.createElement('div', { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" },
+                        React.createElement('div', { className: "flex items-center justify-between h-16" },
+                            React.createElement('div', { className: "flex items-center space-x-2" },
+                                React.createElement('div', { className: "w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-white font-bold" }, 'JB'),
+                                React.createElement('span', { className: "text-white font-bold text-xl hidden sm:block" }, 'Joseph Bidias')
+                            ),
+                            React.createElement('div', { className: "hidden md:flex space-x-8" },
+                                ['Home', 'Performance', 'Projects', 'Contact'].map((item) =>
+                                    React.createElement('a', {
+                                        key: item,
+                                        href: `#${item.toLowerCase()}`,
+                                        className: "text-gray-300 hover:text-cyan-400 transition-colors"
+                                    }, item)
+                                )
+                            ),
+                            React.createElement('button', {
+                                onClick: () => setMenuOpen(!menuOpen),
+                                className: "md:hidden text-white"
+                            }, React.createElement(menuOpen ? X : Menu, { size: 24 }))
+                        )
+                    )
+                ),
+
+                // Hero Section
+                React.createElement('section', { id: "home", className: "relative min-h-screen flex items-center justify-center px-4" },
+                    React.createElement('div', { className: "text-center z-10 max-w-6xl mx-auto" },
+                        React.createElement('h1', { className: "text-5xl sm:text-7xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent" }, 'Joseph Bidias'),
+                        React.createElement('div', { className: "h-12 flex items-center justify-center" },
+                            React.createElement('h2', { className: "text-xl sm:text-3xl text-cyan-400 font-light" },
+                                typedText, React.createElement('span', { className: "animate-pulse" }, '|')
+                            )
+                        ),
+                        React.createElement('p', { className: "text-gray-400 text-lg sm:text-xl max-w-4xl mx-auto mb-8" },
+                            'Elite Quantitative Researcher with 7+ years building production ML systems • 28.4% live trading returns • 200K+ users served • MS Financial Engineering 2025'
+                        ),
+                        React.createElement('div', { className: "flex flex-wrap justify-center gap-4 mb-12" },
+                            React.createElement('a', { href: "#performance", className: "px-8 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-lg font-semibold hover:shadow-lg transition-all transform hover:scale-105" }, 'View Performance'),
+                            React.createElement('a', { href: "#projects", className: "px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg font-semibold hover:shadow-lg transition-all transform hover:scale-105" }, 'Repository Projects'),
+                            React.createElement('a', { href: "#contact", className: "px-8 py-3 border-2 border-blue-500 rounded-lg font-semibold hover:bg-blue-500/10 transition-all" }, 'Contact Me')
+                        ),
+                        React.createElement('div', { className: "flex justify-center gap-6" },
+                            React.createElement('a', {
+                                href: "https://github.com/eaglepython",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                className: "text-gray-400 hover:text-cyan-400 transition-colors transform hover:scale-110"
+                            }, React.createElement(Github, { size: 28 })),
+                            React.createElement('a', {
+                                href: "https://linkedin.com/in/joseph-bidias-eaglepython",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                className: "text-gray-400 hover:text-cyan-400 transition-colors transform hover:scale-110"
+                            }, React.createElement(Linkedin, { size: 28 })),
+                            React.createElement('a', {
+                                href: "mailto:bidias_consulting@outlook.com",
+                                className: "text-gray-400 hover:text-cyan-400 transition-colors transform hover:scale-110"
+                            }, React.createElement(Mail, { size: 28 }))
+                        )
+                    ),
+                    React.createElement('div', { className: "absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce" },
+                        React.createElement(ChevronDown, { size: 32, className: "text-cyan-400" })
+                    )
+                ),
+
+                // Performance Metrics
+                React.createElement('section', { id: "performance", className: "py-20 relative" },
+                    React.createElement('div', { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" },
+                        React.createElement('h2', { className: "text-4xl sm:text-5xl font-bold text-center mb-4 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent" }, 'Elite Performance Metrics'),
+                        React.createElement('div', { className: "w-24 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto mb-12" }),
+                        React.createElement('div', { className: "grid grid-cols-2 lg:grid-cols-4 gap-6" },
+                            liveMetrics.map((metric, index) =>
+                                React.createElement('div', {
+                                    key: index,
+                                    className: "bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-blue-500/20 hover:border-cyan-500/50 transition-all hover:shadow-lg group"
+                                },
+                                    React.createElement('div', {
+                                        className: `w-12 h-12 rounded-lg bg-gradient-to-br ${metric.gradient} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`
+                                    }, React.createElement(metric.icon, { className: "text-white", size: 24 })),
+                                    React.createElement('div', { className: `text-3xl font-bold mb-1 ${metric.color}` }, metric.value),
+                                    React.createElement('div', { className: "text-sm text-gray-400" }, metric.label),
+                                    React.createElement('div', { className: "text-xs text-gray-500 mt-1" }, metric.subtext)
+                                )
+                            )
+                        )
+                    )
+                ),
+
+                // Repository Projects
+                React.createElement('section', { id: "projects", className: "py-20 relative" },
+                    React.createElement('div', { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" },
+                        React.createElement('h2', { className: "text-4xl sm:text-5xl font-bold text-center mb-4 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent" }, 'Portfolio Repository Projects'),
+                        React.createElement('div', { className: "w-24 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto mb-12" }),
+                        React.createElement('div', { className: "grid md:grid-cols-2 lg:grid-cols-3 gap-6" },
+                            repositoryProjects.map((project, index) =>
+                                React.createElement('div', {
+                                    key: index,
+                                    className: "group bg-gray-900/50 backdrop-blur-sm rounded-xl overflow-hidden border border-blue-500/20 hover:border-cyan-500/50 transition-all hover:shadow-2xl hover:scale-105"
+                                },
+                                    React.createElement('div', { className: `h-2 bg-gradient-to-r ${project.gradient}` }),
+                                    React.createElement('div', { className: "p-6" },
+                                        React.createElement('div', { className: "flex items-start justify-between mb-3" },
+                                            React.createElement('span', { className: "px-3 py-1 bg-blue-500/20 text-blue-400 text-xs font-semibold rounded-full" }, project.category),
+                                            React.createElement('div', { className: "flex gap-2" },
+                                                React.createElement('a', {
+                                                    href: "https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO",
+                                                    target: "_blank",
+                                                    rel: "noopener noreferrer",
+                                                    className: "text-gray-400 hover:text-cyan-400 transition-colors"
+                                                }, React.createElement(Github, { size: 18 })),
+                                                React.createElement('a', {
+                                                    href: "#projects",
+                                                    className: "text-gray-400 hover:text-cyan-400 transition-colors"
+                                                }, React.createElement(ExternalLink, { size: 18 }))
+                                            )
+                                        ),
+                                        React.createElement('h3', { className: "text-xl font-bold mb-3 text-white group-hover:text-cyan-400 transition-colors" }, project.title),
+                                        React.createElement('p', { className: "text-gray-400 text-sm mb-4 line-clamp-3" }, project.description),
+                                        React.createElement('div', { className: "flex flex-wrap gap-2 mb-4" },
+                                            project.tech.map((tech, i) =>
+                                                React.createElement('span', {
+                                                    key: i,
+                                                    className: "px-2 py-1 bg-gray-800/50 text-cyan-400 text-xs rounded"
+                                                }, tech)
+                                            )
+                                        ),
+                                        React.createElement('div', { className: "border-t border-gray-800 pt-4 space-y-1" },
+                                            project.metrics.map((metric, i) =>
+                                                React.createElement('div', {
+                                                    key: i,
+                                                    className: "flex items-center gap-2 text-xs text-gray-400"
+                                                },
+                                                    React.createElement('div', { className: `w-1.5 h-1.5 rounded-full bg-gradient-to-r ${project.gradient}` }),
+                                                    React.createElement('span', null, metric)
+                                                )
+                                            )
+                                        )
+                                    )
+                                )
+                            )
+                        )
+                    )
+                ),
+
+                // Contact Section
+                React.createElement('section', { id: "contact", className: "py-20 relative" },
+                    React.createElement('div', { className: "max-w-4xl mx-auto px-4 sm:px-6 lg:px-8" },
+                        React.createElement('h2', { className: "text-4xl sm:text-5xl font-bold text-center mb-4 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent" }, "Let's Connect"),
+                        React.createElement('div', { className: "w-24 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto mb-12" }),
+                        React.createElement('div', { className: "bg-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-blue-500/20" },
+                            React.createElement('p', { className: "text-gray-300 text-center mb-8 text-lg" }, 'Available for senior quantitative research positions, AI/ML engineering roles, and consulting opportunities'),
+                            React.createElement('div', { className: "grid sm:grid-cols-2 gap-4 mb-8" },
+                                React.createElement('a', {
+                                    href: "mailto:bidias_consulting@outlook.com",
+                                    className: "flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg hover:bg-gray-800 transition-all group"
+                                },
+                                    React.createElement('div', { className: "w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center flex-shrink-0" },
+                                        React.createElement(Mail, { className: "text-white", size: 24 })
+                                    ),
+                                    React.createElement('div', { className: "min-w-0" },
+                                        React.createElement('div', { className: "text-sm text-gray-400" }, 'Primary Email'),
+                                        React.createElement('div', { className: "text-white font-semibold truncate" }, 'bidias_consulting@outlook.com')
+                                    )
+                                ),
+                                React.createElement('a', {
+                                    href: "tel:+12148863785",
+                                    className: "flex items-center gap-4 p-4 bg-gray-800/50 rounded-lg hover:bg-gray-800 transition-all group"
+                                },
+                                    React.createElement('div', { className: "w-12 h-12 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center flex-shrink-0" },
+                                        React.createElement(Phone, { className: "text-white", size: 24 })
+                                    ),
+                                    React.createElement('div', { className: "min-w-0" },
+                                        React.createElement('div', { className: "text-sm text-gray-400" }, 'Phone'),
+                                        React.createElement('div', { className: "text-white font-semibold" }, '(214) 886-3785')
+                                    )
+                                )
+                            ),
+                            React.createElement('div', { className: "flex flex-col sm:flex-row gap-4 justify-center" },
+                                React.createElement('a', {
+                                    href: "https://eaglepython.github.io/Software-Engineer-Portofolio/",
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    className: "inline-flex items-center justify-center gap-2 px-8 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-lg font-semibold hover:shadow-lg transition-all transform hover:scale-105"
+                                },
+                                    React.createElement(FileText, { size: 20 }),
+                                    'Software Engineering Portfolio'
+                                ),
+                                React.createElement('a', {
+                                    href: "https://bidiascapitalconsulting.netlify.app/",
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    className: "inline-flex items-center justify-center gap-2 px-8 py-3 bg-gradient-to-r from-yellow-600 to-orange-600 rounded-lg font-semibold hover:shadow-lg transition-all transform hover:scale-105"
+                                },
+                                    React.createElement(TrendingUp, { size: 20 }),
+                                    'Live Trading Platform'
+                                )
+                            )
+                        )
+                    )
+                )
+            );
+        };
+
+        // Render immediately without loading screen
+        ReactDOM.render(React.createElement(QuantPortfolio), document.getElementById('app'));
+    </script>
+</body>
+</html>
