@@ -1,4 +1,11 @@
-# 🎯 Joseph Bidias - Elite Quantitative Researcher & AI/ML Specialist Portfolio## 🚀 **Live Production Systems**# 🚀 **Live Production Systems**# 🚀 **Live Production Systems**
+# Dr. Joseph Bidias, PhD - Quantitative Res### 📜 **Current Professional Status**
+- **Senior Quantitative Finance Engineer & Budget Analyst** | Bidias Capital Consulting LLC (2024-Present)
+- **Live Trading Platform**: Operating with **28.4% annual returns** and 1.89 Sharpe ratio
+- **Healthcare AI Systems**: Serving **200,000+ users** with governance platforms
+- **PhD in Integrative Medicine** | Quantum University (2022)
+- **Master's in Financial Engineering** | WorldQuant University (2025) & AI/ML Portfolio
+
+## Elite Quantitative Researcher | Financial Engineering | Machine Learning Specialist
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Machine Learning](https://img.shields.io/badge/ML-TensorFlow%20%7C%20PyTorch%20%7C%20Scikit--learn-orange.svg)](https://scikit-learn.org/)
 [![Deep Learning](https://img.shields.io/badge/DL-LSTM%20%7C%20CNN%20%7C%20Transformers-red.svg)](https://tensorflow.org/)
@@ -34,8 +41,8 @@
 
 ## 👨‍💼 Professional Profile
 
-**Joseph Bidias**  
-🎓 **Senior Quantitative Researcher & AI/ML Specialist** | **7+ Years Experience**  
+**Dr. Joseph Bidias, PhD**  
+🎓 **PhD in Integrative Medicine | MS Financial Engineering | Senior Quantitative Researcher** | **7+ Years Experience**  
 📧 rodabeck777@gmail.com | bidias_consulting@outlook.com | 📞 (214) 886-3785  
 🔗 [GitHub](https://github.com/eaglepython) | 💼 [LinkedIn](https://linkedin.com/in/joseph-bidias) | 📄 [Resume](https://eaglepython.github.io/Software-Engineer-Portofolio/resume.html)
 
