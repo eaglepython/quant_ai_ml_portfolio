@@ -1,6 +1,7 @@
-# Dr. Joseph Bidias, PhD - Elite Quantitative Researcher Portfolio
-# GitHub Pages Jekyll Configuration
+# GitHub Pages Configuration for Static Site
+# This site uses custom HTML/CSS/JS without Jekyll processing
 
+# Site Information
 title: "Dr. Joseph Bidias, PhD - Quantitative Research & AI/ML Portfolio"
 description: "Elite Quantitative Researcher | Financial Engineering | Machine Learning Specialist"
 url: "https://eaglepython.github.io"
@@ -10,38 +11,19 @@ baseurl: "/QUANT_AI_ML_PORTOFOLIO"
 author:
   name: "Dr. Joseph Bidias, PhD"
   email: "bidias_consulting@outlook.com"
-  linkedin: "https://linkedin.com/in/joseph-bidias"
-  github: "https://github.com/eaglepython"
 
-# GitHub Pages Settings
-plugins:
-  - jekyll-relative-links
-  - jekyll-optional-front-matter
-
-# Enable relative links
-relative_links:
-  enabled: true
-  collections: true
-
-# Markdown settings
+# Disable Jekyll processing
+plugins: []
 markdown: kramdown
-highlighter: rouge
 
-# Include/Exclude files
+# Include all files
 include:
   - "*.html"
-  - "*.css"
+  - "*.css" 
   - "*.js"
   - "*.jpg"
   - "*.png"
   - "*.pdf"
-
-exclude:
-  - README.md
-  - package.json
-  - node_modules/
-  - .git/
-  - .github/
 - **Visibility**: Public (required for GitHub Pages)
 - **Pages Source**: `/docs` folder from `main` branch
 

@@ -30,8 +30,8 @@ Dr. Joseph Bidias is **actively seeking senior quantitative research positions**
 - **Location**: Dallas, TX (Remote Available Worldwide)
 
 ### **💼 Portfolio Access**
-- **🚀 Live Portfolio**: [View Portfolio](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/index.html)
-- **📄 Professional Resume**: [Download Resume](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/resume.html)
+- **🚀 Live Portfolio**: [View Portfolio](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/)
+- **📄 Professional Resume**: [Download Resume](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/resume.html)
 - **💾 Source Code**: [GitHub Repository](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO)
 
 ---
@@ -85,7 +85,7 @@ This portfolio is licensed under the MIT License. See `LICENSE` file for details
 **Dr. Joseph Bidias, PhD**  
 🎓 **PhD in Integrative Medicine | MS Financial Engineering | Senior Quantitative Researcher** | **7+ Years Experience**  
 📧 rodabeck777@gmail.com | bidias_consulting@outlook.com | 📞 (214) 886-3785  
-🔗 [GitHub](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO) | 💼 [LinkedIn](https://linkedin.com/in/joseph-bidias) | 📄 [Resume](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/resume.html)
+🔗 [GitHub](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO) | 💼 [LinkedIn](https://linkedin.com/in/joseph-bidias) | 📄 [Resume](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/resume.html)
 
 ### � **Current Professional Status**
 - **Senior Quantitative Finance Engineer & Budget Analyst** | Bidias Capital Consulting LLC (2024-Present)
@@ -105,11 +105,11 @@ This portfolio is licensed under the MIT License. See `LICENSE` file for details
 ## 🌐 **Live Portfolio URLs**
 
 ### **📊 Primary Portfolio & Resume (GitHub Pages)**
-- **🚀 Main Portfolio**: [https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/index.html](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/index.html)
-- **📄 Professional Resume**: [https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/resume.html](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/resume.html)
+- **🚀 Main Portfolio**: [https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/)
+- **📄 Professional Resume**: [https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/resume.html](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/resume.html)
 - **💾 GitHub Repository**: [https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO)
 
-> **📌 Note**: Portfolio is automatically deployed via GitHub Pages from the `/docs` directory on every push to main branch.
+> **📌 Note**: Portfolio is automatically deployed via GitHub Pages from the root directory on every push to main branch.
 
 ---
 
