@@ -1,4 +1,4 @@
-# Dr. Joseph Bidias, PhD - Quantitative Research & AI/ML Portfolio
+#  Joseph Bidias, PhD - Quantitative Research & AI/ML Portfolio
 
 ## Elite Quantita### 🚀 **Current Professional Status**
 - **Senior Quantitative Finance Engineer & Budget Analyst** | Bidias Capital Consulting LLC (2024-Present)
