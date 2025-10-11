@@ -1,5 +1,4 @@
-# 🎯 Joseph Bidias - Elite Quantitative Researcher & AI/ML Specialist Portfolio
-
+# 🎯 Joseph Bidias - Elite Quantitative Researcher & AI/ML Specialist Portfolio## 🚀 **Live Production Systems**# 🚀 **Live Production Systems**# 🚀 **Live Production Systems**
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Machine Learning](https://img.shields.io/badge/ML-TensorFlow%20%7C%20PyTorch%20%7C%20Scikit--learn-orange.svg)](https://scikit-learn.org/)
 [![Deep Learning](https://img.shields.io/badge/DL-LSTM%20%7C%20CNN%20%7C%20Transformers-red.svg)](https://tensorflow.org/)
@@ -38,7 +37,7 @@
 **Joseph Bidias**  
 🎓 **Senior Quantitative Researcher & AI/ML Specialist** | **7+ Years Experience**  
 📧 rodabeck777@gmail.com | bidias_consulting@outlook.com | 📞 (214) 886-3785  
-🔗 [GitHub](https://github.com/eaglepython) | 💼 [Resume](https://eaglepython.github.io/Software-Engineer-Portofolio/resume.html)
+🔗 [GitHub](https://github.com/eaglepython) | 💼 [LinkedIn](https://linkedin.com/in/joseph-bidias) | 📄 [Resume](https://eaglepython.github.io/Software-Engineer-Portofolio/resume.html)
 
 ### � **Current Professional Status**
 - **Senior Quantitative Finance Engineer & Budget Analyst** | Bidias Capital Consulting LLC (2024-Present)
@@ -79,38 +78,6 @@
 ---
 
 ## � **Professional Experience**
-
-### **Senior Quantitative Finance Engineer & Budget Analyst** (2024-Present)
-**Bidias Capital Consulting LLC** | Remote
-- **Live Trading Platform**: Achieving **28.4% annual returns** with 1.89 Sharpe ratio
-- **High-Frequency Systems**: 5μs inference time with 94.2% accuracy for real-time analysis
-- **Production Projects**: 11+ live systems with multi-strategy backtesting framework
-- **Risk Management**: VQE/QAOA quantum algorithms for portfolio optimization
-
-### **Data Science Analyst - Tech Solutions** (June 2022 - February 2025)
-**Verizon** | Dallas, TX
-- **Enterprise Scale**: ML pipelines serving **10M+ customers daily**
-- **Performance Optimization**: 25% reduction in system latency through advanced algorithms
-- **System Reliability**: 99.9% uptime across 15+ business applications
-- **Cross-Functional Leadership**: Collaborated with 20+ engineering teams
-
-### **Healthcare Technology & AI Engineer** (February 2020 - June 2022)
-**Texas Health & Human Services** | Dallas, TX
-- **Predictive Analytics**: Analyzed **200K+ patient records daily** with 85% accuracy
-- **Cost Savings**: **$2M+ annually** through readmission risk prediction models
-- **System Deployment**: Real-time care gap alerts across 300+ healthcare providers
-- **Policy Compliance**: AI model alignment with federal quality measures
-
-### **Data Analyst - Product Development** (September 2014 - December 2019)
-**Apple Inc.** | Austin, TX
-- **Revenue Impact**: Predictive models for **$50B+ annual product revenue**
-- **Global Scale**: ETL pipelines processing terabytes from 40+ countries
-- **Innovation Leadership**: Technical initiatives serving millions of customers
-- **Business Intelligence**: Advanced dashboard development and data visualization
-
----
-
-## 🚀 **Live Production Systems**
 
 ### **Multi-Agent Quantum Trading Platform** ⭐ (2024-Present)
 **Link**: [bidiascapitalconsulting.netlify.app](https://bidiascapitalconsulting.netlify.app)
