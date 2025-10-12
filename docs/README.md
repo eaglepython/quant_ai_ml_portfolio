@@ -1,4 +1,4 @@
-# Joseph Bidias - Elite Quantitative Researcher & AI/ML Specialist
+# Joseph Bidias - Elite Quantitative Research Engineer & AI/ML Specialist
 
 🚀 **Live Portfolio Website**: [https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/)
 
@@ -10,7 +10,7 @@
 - **$12.3M Verified Profits** - Live Trading Systems
 
 ## 🏆 Professional Summary
-Elite Quantitative Researcher with 7+ years building production ML systems across quantitative finance, healthcare technology, and enterprise software. Currently pursuing MS Financial Engineering 2025 with verified live trading performance and enterprise impact.
+Elite Quantitative Research Engineer with 7+ years building production ML systems across quantitative finance, healthcare technology, and enterprise software. Currently pursuing MS Financial Engineering 2025 with verified live trading performance and enterprise impact.
 
 ### 🎯 Core Expertise
 - **Quantitative Finance**: Portfolio Optimization, Risk Modeling, Algorithmic Trading, Derivatives Pricing
@@ -117,6 +117,6 @@ Elite Quantitative Researcher with 7+ years building production ML systems acros
 
 ---
 
-**Elite Quantitative Researcher | AI/ML Specialist | 7+ Years Experience | 28.4% Live Returns | MS Financial Engineering 2025**
+**Elite Quantitative Research Engineer | AI/ML Specialist | 7+ Years Experience | 28.4% Live Returns | MS Financial Engineering 2025**
 
-*Available for senior quantitative research positions, AI/ML engineering roles, and consulting opportunities.*
+*Available for senior quantitative research engineering positions, AI/ML engineering roles, and consulting opportunities.*

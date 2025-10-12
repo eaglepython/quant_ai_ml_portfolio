@@ -1,29 +1,23 @@
-# GitHub Pages Configuration for Static Site
-# This site uses custom HTML/CSS/JS without Jekyll processing
+# Joseph Bidias - Elite Quantitative Researcher Portfolio
 
-# Site Information
-title: "Dr. Joseph Bidias, PhD - Quantitative Research & AI/ML Portfolio"
-description: "Elite Quantitative Researcher | Financial Engineering | Machine Learning Specialist"
-url: "https://eaglepython.github.io"
-baseurl: "/QUANT_AI_ML_PORTOFOLIO"
+## GitHub Pages Configuration
 
-# Author Information
-author:
-  name: "Dr. Joseph Bidias, PhD"
-  email: "bidias_consulting@outlook.com"
+This repository contains a professional portfolio website showcasing elite quantitative research and AI/ML expertise.
 
-# Disable Jekyll processing
-plugins: []
-markdown: kramdown
+### 🚀 Live Website
+**URL**: https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/
 
-# Include all files
-include:
-  - "*.html"
-  - "*.css" 
-  - "*.js"
-  - "*.jpg"
-  - "*.png"
-  - "*.pdf"
+### 📋 Setup Instructions
+
+#### 1. GitHub Pages Configuration
+1. Go to repository **Settings** → **Pages**
+2. Set **Source** to "Deploy from a branch"
+3. Select **Branch**: `main`
+4. Set **Folder** to `/docs`
+5. Click **Save**
+
+#### 2. Repository Settings
+- **Repository Name**: `QUANT_AI_ML_PORTOFOLIO`
 - **Visibility**: Public (required for GitHub Pages)
 - **Pages Source**: `/docs` folder from `main` branch
 

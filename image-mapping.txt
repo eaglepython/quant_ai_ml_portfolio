@@ -1,8 +1,0 @@
-/* This file maps the attachment images to specific sections */
-
-/* 
-Attachment 1: Blue quantum chip/AI processor - for Performance section
-Attachment 2: AI algorithms visualization - for Projects section  
-Attachment 3: Financial trading interface - for Research section
-Attachment 4: AI medical/technology interface - for Contact section
-*/
