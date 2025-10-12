@@ -679,14 +679,14 @@
             font-size: 0.9rem;
             font-weight: 600;
             transition: all 0.3s ease;
-            display: inline-flex;
+            display: inline-flex !important;
             align-items: center;
             gap: 0.5rem;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
             border: 2px solid transparent;
             cursor: pointer !important;
-            position: relative;
-            z-index: 999 !important;
+            position: relative !important;
+            z-index: 99999 !important;
             pointer-events: auto !important;
             user-select: none;
         }
@@ -695,6 +695,13 @@
             transform: translateY(-2px);
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             text-decoration: none !important;
+            pointer-events: auto !important;
+        }
+        
+        .compact-link:focus,
+        .compact-link:active {
+            pointer-events: auto !important;
+            z-index: 99999 !important;
         }
         
         .compact-link-primary {
@@ -2386,9 +2393,9 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="hero-content">
-                        <h1>Joseph Bidias<br><span class="highlight">"The 7th Sense"</span></h1>
+                        <h1>Joseph Bidias</h1>
                         <p class="subtitle">Quantitative Research Engineer & AI/ML Specialist</p>
-                        <p class="tagline">Quantum Financial Intelligence</p>
+                        <p class="tagline">"The 7th Sense" - Quantum Financial Intelligence</p>
                         <div class="hero-buttons">
                             <a href="#projects" class="btn-custom btn-primary-custom">
                                 <i class="fas fa-chart-line"></i> View Performance
@@ -3254,6 +3261,49 @@
             });
         });
         
+        // Force Production Systems Links to Work
+        function fixProductionSystemsLinks() {
+            console.log('🔧 Fixing production systems links...');
+            
+            // Target all links in the projects section (production systems)
+            const projectsSection = document.getElementById('projects');
+            if (projectsSection) {
+                const allLinks = projectsSection.querySelectorAll('a[href]');
+                allLinks.forEach((link, index) => {
+                    console.log(`🔗 Processing link ${index + 1}: ${link.href}`);
+                    
+                    // Remove any existing click handlers
+                    const newLink = link.cloneNode(true);
+                    link.parentNode.replaceChild(newLink, link);
+                    
+                    // Force clickable styles
+                    newLink.style.cssText = `
+                        pointer-events: auto !important;
+                        z-index: 99999 !important;
+                        position: relative !important;
+                        cursor: pointer !important;
+                        display: inline-flex !important;
+                    `;
+                    
+                    // Add direct click handler
+                    newLink.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        console.log('🚀 Opening link:', this.href);
+                        window.open(this.href, '_blank', 'noopener,noreferrer');
+                        return false;
+                    });
+                    
+                    // Add backup handlers
+                    newLink.addEventListener('mousedown', function(e) {
+                        if (e.button === 0) { // Left click
+                            window.open(this.href, '_blank', 'noopener,noreferrer');
+                        }
+                    });
+                });
+            }
+        }
+
         // AGGRESSIVE FIX - Force all buttons to work
         function forceButtonsToWork() {
             // Get all button selectors
@@ -3265,16 +3315,19 @@
                 '.compact-link',
                 '.project-link', 
                 '.btn-custom',
-                'a[href$=".html"]'
+                'a[href$=".html"]',
+                'a[href*="healthcare-llm-governance-toolkit"]',
+                'a[href*="bidiascapitalconsulting"]'
             ];
             
             buttonSelectors.forEach(selector => {
                 document.querySelectorAll(selector).forEach(link => {
                     // Force styles
-                    link.style.pointerEvents = 'auto';
+                    link.style.pointerEvents = 'auto !important';
                     link.style.zIndex = '99999';
                     link.style.position = 'relative';
-                    link.style.cursor = 'pointer';
+                    link.style.cursor = 'pointer !important';
+                    link.style.display = 'inline-flex !important';
                     
                     // Remove all existing event listeners by cloning
                     const newLink = link.cloneNode(true);
@@ -3312,13 +3365,19 @@
         
         // Run immediately and after DOM load
         if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', forceButtonsToWork);
+            document.addEventListener('DOMContentLoaded', function() {
+                forceButtonsToWork();
+                fixProductionSystemsLinks();
+            });
         } else {
             forceButtonsToWork();
+            fixProductionSystemsLinks();
         }
         
         // Also run after AOS animations
         setTimeout(forceButtonsToWork, 2000);
+        setTimeout(fixProductionSystemsLinks, 2500);
+        setTimeout(fixProductionSystemsLinks, 5000);
         
         // Add debug function to test links manually
         window.testAllLinks = function() {
