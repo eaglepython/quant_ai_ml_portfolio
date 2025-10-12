@@ -4,14 +4,14 @@
 
 ![Portfolio Banner](./docs/ai-brain-analytics.jpg)
 
-[![Portfolio Website](https://img.shields.io/badge/🌐_Portfolio-Live_Website-667eea?style=for-the-badge&logoColor=white)](https://eaglepython.github.io/Joseph-Bidias-Quant-AI-ML-Portfolio/)
+[![Portfolio Website](https://img.shields.io/badge/🌐_Portfolio-Live_Website-667eea?style=for-the-badge&logoColor=white)](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/)
 [![Trading Platform](https://img.shields.io/badge/🚀_Trading-Live_Platform-764ba2?style=for-the-badge&logoColor=white)](https://bidiascapitalconsulting.netlify.app/)
 [![GitHub](https://img.shields.io/badge/💻_Code-GitHub_Repository-f093fb?style=for-the-badge&logoColor=white)](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO)
 
 </div>
 
 ## 🌐 **Live Portfolio Website**
-### 🔗 **[View Portfolio → https://eaglepython.github.io/Joseph-Bidias-Quant-AI-ML-Portfolio/](https://eaglepython.github.io/Joseph-Bidias-Quant-AI-ML-Portfolio/)**
+### 🔗 **[View Portfolio → https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/)**
 
 ---
 
@@ -522,7 +522,7 @@ NumPy 1.x
 📧 **Email**: rodabeck777@gmail.com | bidias_consulting@outlook.com  
 📞 **Phone**: (214) 886-3785  
 🔗 **GitHub**: [github.com/eaglepython](https://github.com/eaglepython)  
-� **Resume**: [eaglepython.github.io/Software-Engineer-Portofolio/resume.html](https://eaglepython.github.io/Software-Engineer-Portofolio/resume.html)
+💼 **Resume**: [eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/resume.html](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/resume.html)
 
 ### **Professional Status**
 - **Current Role**: Senior Quantitative Finance Engineer at Bidias Capital Consulting LLC
@@ -628,7 +628,7 @@ flowchart TB
 <div align="center">
 
 ### 🌐 **Live Platforms**
-[![Portfolio Website](https://img.shields.io/badge/🌐_Portfolio-Live_Website-667eea?style=for-the-badge&logo=react)](https://eaglepython.github.io/Joseph-Bidias-Quant-AI-ML-Portfolio/)
+[![Portfolio Website](https://img.shields.io/badge/🌐_Portfolio-Live_Website-667eea?style=for-the-badge&logo=react)](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/)
 [![Trading Platform](https://img.shields.io/badge/🚀_Trading-Live_Platform-764ba2?style=for-the-badge&logo=python)](https://bidiascapitalconsulting.netlify.app/)
 [![Software Portfolio](https://img.shields.io/badge/💻_Software-Engineering_Portfolio-f093fb?style=for-the-badge&logo=github)](https://eaglepython.github.io/Software-Engineer-Portofolio/)
 
@@ -639,7 +639,7 @@ flowchart TB
 ### 💼 **Professional Profiles**
 [![GitHub](https://img.shields.io/badge/💻_GitHub-Repository_Portfolio-181717?style=for-the-badge&logo=github)](https://github.com/eaglepython)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Professional_Profile-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/josephbidias/)
-[![Resume](https://img.shields.io/badge/📄_Resume-Download_PDF-FF6B6B?style=for-the-badge&logo=adobeacrobatreader)](./docs/resume.html)
+[![Resume](https://img.shields.io/badge/📄_Resume-Download_PDF-FF6B6B?style=for-the-badge&logo=adobeacrobatreader)](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/resume.html)
 
 </div>
 
