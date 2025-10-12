@@ -4,14 +4,14 @@
 
 ![Portfolio Banner](./docs/ai-brain-analytics.jpg)
 
-[![Portfolio Website](https://img.shields.io/badge/🌐_The_7th_Sense-Live_Website-667eea?style=for-the-badge&logoColor=white)](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/)
+[![Portfolio Website](https://img.shields.io/badge/🌐_The_7th_Sense-Live_Website-667eea?style=for-the-badge&logoColor=white)](https://eaglepython.github.io/quant_ai_ml_portfolio/)
 [![Trading Platform](https://img.shields.io/badge/🚀_Trading-Live_Platform-764ba2?style=for-the-badge&logoColor=white)](https://bidiascapitalconsulting.netlify.app/)
-[![GitHub](https://img.shields.io/badge/💻_Code-GitHub_Repository-f093fb?style=for-the-badge&logoColor=white)](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO)
+[![GitHub](https://img.shields.io/badge/💻_Code-GitHub_Repository-f093fb?style=for-the-badge&logoColor=white)](https://github.com/eaglepython/quant_ai_ml_portfolio)
 
 </div>
 
 ## 🌐 **Live Portfolio Website**
-### 🔗 **[View "The 7th Sense" Portfolio → https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/)**
+### 🔗 **[View "The 7th Sense" Portfolio → https://eaglepython.github.io/quant_ai_ml_portfolio/](https://eaglepython.github.io/quant_ai_ml_portfolio/)**
 
 ---
 
@@ -198,7 +198,7 @@ Validation: FDA-compliant clinical trials
 
 ### �️ **Repository Organization**
 ```
-QUANT_AI_ML_PORTOFOLIO/
+quant_ai_ml_portfolio/
 ├── 01-Deep-Learning-Finance/     # Neural networks for financial modeling
 ├── 02-Healthcare-Analytics/      # ML applications in healthcare
 ├── 03-Quantitative-Finance/      # Portfolio optimization & risk management
@@ -522,7 +522,7 @@ NumPy 1.x
 📧 **Email**: rodabeck777@gmail.com | bidias_consulting@outlook.com  
 📞 **Phone**: (214) 886-3785  
 🔗 **GitHub**: [github.com/eaglepython](https://github.com/eaglepython)  
-💼 **Resume**: [eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/resume.html](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/resume.html)
+💼 **Resume**: [eaglepython.github.io/quant_ai_ml_portfolio/docs/resume.html](https://eaglepython.github.io/quant_ai_ml_portfolio/docs/resume.html)
 
 ### **Professional Status**
 - **Current Role**: Senior Quantitative Finance Engineer at Bidias Capital Consulting LLC
@@ -628,7 +628,7 @@ flowchart TB
 <div align="center">
 
 ### 🌐 **Live Platforms**
-[![Portfolio Website](https://img.shields.io/badge/🌐_The_7th_Sense-Live_Website-667eea?style=for-the-badge&logo=react)](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/)
+[![Portfolio Website](https://img.shields.io/badge/🌐_The_7th_Sense-Live_Website-667eea?style=for-the-badge&logo=react)](https://eaglepython.github.io/quant_ai_ml_portfolio/)
 [![Trading Platform](https://img.shields.io/badge/🚀_Trading-Live_Platform-764ba2?style=for-the-badge&logo=python)](https://bidiascapitalconsulting.netlify.app/)
 [![Software Portfolio](https://img.shields.io/badge/💻_Software-Engineering_Portfolio-f093fb?style=for-the-badge&logo=github)](https://eaglepython.github.io/Software-Engineer-Portofolio/)
 
@@ -639,7 +639,7 @@ flowchart TB
 ### 💼 **Professional Profiles**
 [![GitHub](https://img.shields.io/badge/💻_GitHub-Repository_Portfolio-181717?style=for-the-badge&logo=github)](https://github.com/eaglepython)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Professional_Profile-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/josephbidias/)
-[![Resume](https://img.shields.io/badge/📄_Resume-Download_PDF-FF6B6B?style=for-the-badge&logo=adobeacrobatreader)](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/resume.html)
+[![Resume](https://img.shields.io/badge/📄_Resume-Download_PDF-FF6B6B?style=for-the-badge&logo=adobeacrobatreader)](https://eaglepython.github.io/quant_ai_ml_portfolio/docs/resume.html)
 
 </div>
 

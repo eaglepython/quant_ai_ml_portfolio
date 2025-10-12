@@ -2,7 +2,7 @@
 
 # Joseph Bidias - Elite Quantitative Research Portfolio
 
-🚀 **Live Portfolio Website**: [https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/)
+🚀 **Live Portfolio Website**: [https://eaglepython.github.io/quant_ai_ml_portfolio/](https://eaglepython.github.io/quant_ai_ml_portfolio/)
 
 ## 📊 Elite Performance Metrics
 - **48.6% Annual Returns** - Multi-Agent Quantum Trading (Live Production)
@@ -99,7 +99,7 @@ Elite Quantitative Research Engineer with 7+ years building production ML system
 ## 🔗 Quick Access Links
 
 ### 🌐 Live Platforms
-- **Portfolio Website**: [https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/)
+- **Portfolio Website**: [https://eaglepython.github.io/quant_ai_ml_portfolio/](https://eaglepython.github.io/quant_ai_ml_portfolio/)
 - **Trading Platform**: [https://bidiascapitalconsulting.netlify.app/](https://bidiascapitalconsulting.netlify.app/)
 - **Software Portfolio**: [https://eaglepython.github.io/Software-Engineer-Portofolio/](https://eaglepython.github.io/Software-Engineer-Portofolio/)
 

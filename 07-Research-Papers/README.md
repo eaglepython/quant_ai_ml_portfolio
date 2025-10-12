@@ -6,7 +6,7 @@ This comprehensive collection showcases advanced AI/ML research papers, engineer
 
 ### **Assignment #4: Custom Generative AI Text-Model via Fine-tuning**
 **File**: `4_Joseph BIDIAS - Assignment #4_ Custom Generative AI Text-Model via Fine-tuning.pdf`  
-**GitHub**: [View Research Paper](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO/blob/main/07-Research-Papers/4_Joseph%20BIDIAS%20-%20Assignment%20%234_%20Custom%20Generative%20AI%20Text-Model%20via%20Fine-tuning.pdf)
+**GitHub**: [View Research Paper](https://github.com/eaglepython/quant_ai_ml_portfolio/blob/main/07-Research-Papers/4_Joseph%20BIDIAS%20-%20Assignment%20%234_%20Custom%20Generative%20AI%20Text-Model%20via%20Fine-tuning.pdf)
 
 **Research Focus**: Advanced fine-tuning techniques for generative language models with custom domain adaptation.
 
@@ -20,7 +20,7 @@ This comprehensive collection showcases advanced AI/ML research papers, engineer
 
 ### **Assignment #5: Fine-tuning Diffusion Models for Image Generation**
 **File**: `5_Joseph BIDIAS - Assignment #5_ Fine-tuning Diffusion Models for Image Generation.pdf`  
-**GitHub**: [View Research Paper](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO/blob/main/07-Research-Papers/5_Joseph%20BIDIAS%20-%20Assignment%20%235_%20Fine-tuning%20Diffusion%20Models%20for%20Image%20Generation.pdf)
+**GitHub**: [View Research Paper](https://github.com/eaglepython/quant_ai_ml_portfolio/blob/main/07-Research-Papers/5_Joseph%20BIDIAS%20-%20Assignment%20%235_%20Fine-tuning%20Diffusion%20Models%20for%20Image%20Generation.pdf)
 
 **Research Focus**: Advanced diffusion model architectures and fine-tuning strategies for high-quality image synthesis.
 
@@ -39,7 +39,7 @@ This comprehensive collection showcases advanced AI/ML research papers, engineer
 
 ### **Assignment #7: A/B Testing & Statistical Analysis**
 **File**: `Joseph BIDIAS - Assignment #7_ A_B Testing.pdf`  
-**GitHub**: [View Research Paper](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO/blob/main/07-Research-Papers/Joseph%20BIDIAS%20-%20Assignment%20%237_%20A_B%20Testing.pdf)
+**GitHub**: [View Research Paper](https://github.com/eaglepython/quant_ai_ml_portfolio/blob/main/07-Research-Papers/Joseph%20BIDIAS%20-%20Assignment%20%237_%20A_B%20Testing.pdf)
 
 **Research Focus**: Advanced statistical methodologies for A/B testing, experimental design, and causal inference in AI systems.
 
@@ -65,7 +65,7 @@ This comprehensive collection showcases advanced AI/ML research papers, engineer
 
 ### **Anomaly Detection Research Project**
 **File**: `ANOMALY DETECTION project.pdf`  
-**GitHub**: [View Research Paper](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO/blob/main/07-Research-Papers/ANOMALY%20DETECTION%20project.pdf)
+**GitHub**: [View Research Paper](https://github.com/eaglepython/quant_ai_ml_portfolio/blob/main/07-Research-Papers/ANOMALY%20DETECTION%20project.pdf)
 
 **Research Focus**: Advanced anomaly detection algorithms using deep learning and statistical methods for real-time system monitoring.
 
@@ -91,7 +91,7 @@ This comprehensive collection showcases advanced AI/ML research papers, engineer
 
 ### **Analytics for Diabetes Management**
 **File**: `analytics-for-diabetes-management.pdf`  
-**GitHub**: [View Research Paper](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO/blob/main/07-Research-Papers/analytics-for-diabetes-management.pdf)
+**GitHub**: [View Research Paper](https://github.com/eaglepython/quant_ai_ml_portfolio/blob/main/07-Research-Papers/analytics-for-diabetes-management.pdf)
 
 **Research Focus**: AI-driven healthcare analytics for personalized diabetes management and clinical decision support.
 
@@ -117,7 +117,7 @@ This comprehensive collection showcases advanced AI/ML research papers, engineer
 
 ### **Johnson & Johnson (JNJ) Stock Analysis**
 **File**: `Johnson & Johnson (JNJ) Stock Analysis(1).pptx.pdf`  
-**GitHub**: [View Research Paper](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO/blob/main/07-Research-Papers/Johnson%20%26%20Johnson%20(JNJ)%20Stock%20Analysis(1).pptx.pdf)
+**GitHub**: [View Research Paper](https://github.com/eaglepython/quant_ai_ml_portfolio/blob/main/07-Research-Papers/Johnson%20%26%20Johnson%20(JNJ)%20Stock%20Analysis(1).pptx.pdf)
 
 **Research Focus**: AI-powered financial analysis combining quantitative methods with machine learning for investment decision support.
 
@@ -143,7 +143,7 @@ This comprehensive collection showcases advanced AI/ML research papers, engineer
 
 ### **Verizon Portfolio Analysis & Strategic Recommendations**
 **File**: `Portofolio_Verizon.docx.pdf`  
-**GitHub**: [View Research Paper](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO/blob/main/07-Research-Papers/Portofolio_Verizon.docx.pdf)
+**GitHub**: [View Research Paper](https://github.com/eaglepython/quant_ai_ml_portfolio/blob/main/07-Research-Papers/Portofolio_Verizon.docx.pdf)
 
 **Research Focus**: Comprehensive telecommunications industry analysis with AI-driven strategic recommendations for portfolio optimization and market positioning.
 

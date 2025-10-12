@@ -5,7 +5,7 @@
 This repository contains a professional portfolio website showcasing elite quantitative research and AI/ML expertise.
 
 ### 🚀 Live Website
-**URL**: https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/
+**URL**: https://eaglepython.github.io/quant_ai_ml_portfolio/
 
 ### 📋 Setup Instructions
 
@@ -17,7 +17,7 @@ This repository contains a professional portfolio website showcasing elite quant
 5. Click **Save**
 
 #### 2. Repository Settings
-- **Repository Name**: `QUANT_AI_ML_PORTOFOLIO`
+- **Repository Name**: `quant_ai_ml_portfolio`
 - **Visibility**: Public (required for GitHub Pages)
 - **Pages Source**: `/docs` folder from `main` branch
 
