@@ -898,6 +898,54 @@
             box-shadow: 0 10px 30px rgba(255, 255, 255, 0.3);
         }
         
+        /* Hero Stats Section */
+        .hero-stats {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin-top: 2rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .hero-stats h3 {
+            color: white !important;
+            font-size: 2.5rem !important;
+            font-weight: 800 !important;
+            margin-bottom: 0.5rem !important;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .hero-stats p {
+            color: rgba(255, 255, 255, 0.9) !important;
+            font-size: 1rem !important;
+            font-weight: 500 !important;
+            margin-bottom: 0 !important;
+        }
+        
+        /* UNIVERSAL FIX FOR ALL CLICKABLE LINKS */
+        a, .compact-link, .project-link, .btn-custom, .nav-link {
+            pointer-events: auto !important;
+            z-index: 9999 !important;
+            position: relative !important;
+            cursor: pointer !important;
+        }
+        
+        .compact-link, .project-link {
+            display: inline-block !important;
+            text-decoration: none !important;
+        }
+        
+        /* Fix for overlapping elements that block clicks */
+        [data-aos], .aos-animate {
+            pointer-events: auto !important;
+        }
+        
+        .compact-card, .project-card {
+            pointer-events: auto !important;
+        }
+        
         /* Floating Elements */
         .floating-elements {
             position: absolute;
@@ -1521,8 +1569,34 @@
             transform: translateY(-2px);
         }
         
-        /* Contact Section */
-        .contact-section {
+        /* ================================
+           UNIVERSAL LINK FIX - ENSURES ALL LINKS WORK
+           ================================ */
+        a, a[href], .nav-link, .compact-link, .project-link, .btn-custom {
+            pointer-events: auto !important;
+            z-index: 9999 !important;
+            position: relative !important;
+            cursor: pointer !important;
+        }
+        
+        /* Ensure clickable containers don't block links */
+        .compact-card, .project-card, .contact-card, .section {
+            pointer-events: auto !important;
+        }
+        
+        /* Fix AOS animations blocking clicks */
+        [data-aos] {
+            pointer-events: auto !important;
+        }
+        
+        /* Override any overlapping elements */
+        .compact-links, .project-links {
+            z-index: 10000 !important;
+            position: relative !important;
+        }
+        /* ================================
+           END UNIVERSAL LINK FIX
+           ================================ */
             background: var(--gradient-primary);
             color: white;
         }
@@ -3230,6 +3304,32 @@
             easing: 'ease-out-quart',
             once: true,
             offset: 50
+        });
+        
+        // UNIVERSAL LINK FIX - Ensure ALL links are clickable
+        document.addEventListener('DOMContentLoaded', function() {
+            // Force all links to be clickable
+            const allLinks = document.querySelectorAll('a, .nav-link, .compact-link, .project-link, .btn-custom');
+            allLinks.forEach(link => {
+                link.style.pointerEvents = 'auto';
+                link.style.zIndex = '9999';
+                link.style.position = 'relative';
+                link.style.cursor = 'pointer';
+                
+                // Add click event listener as backup
+                link.addEventListener('click', function(e) {
+                    if (this.href && this.href !== '#') {
+                        e.stopPropagation();
+                        if (this.target === '_blank') {
+                            window.open(this.href, '_blank');
+                        } else {
+                            window.location.href = this.href;
+                        }
+                    }
+                }, true);
+            });
+            
+            console.log('Fixed', allLinks.length, 'links to be clickable');
         });
         
         // Enhanced smooth scrolling for navigation links
