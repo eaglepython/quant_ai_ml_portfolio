@@ -1,4 +1,4 @@
-# Joseph Bidias - Elite Quantitative Research Engineer & AI/ML Specialist
+# 🎯 Joseph Bidias - Elite Quantitative Research Engineer & AI/ML Specialist Portfolio
 
 🚀 **Live Portfolio Website**: [https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/)
 

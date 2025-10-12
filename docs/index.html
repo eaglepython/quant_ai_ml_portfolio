@@ -32,6 +32,35 @@
             box-sizing: border-box;
         }
         
+        /* ================================
+           UNIVERSAL LINK FIX - CRITICAL
+           ================================ */
+        a, a[href], .nav-link, .compact-link, .project-link, .btn-custom, 
+        .compact-link-primary, .compact-link-secondary, 
+        .project-link-primary, .project-link-secondary {
+            pointer-events: auto !important;
+            z-index: 999999 !important;
+            position: relative !important;
+            cursor: pointer !important;
+            display: inline-flex !important;
+            user-select: none !important;
+        }
+        
+        /* Ensure parent containers don't block links */
+        .compact-card, .project-card, .contact-card, .section, 
+        .compact-links, .project-links, [data-aos] {
+            pointer-events: auto !important;
+        }
+        
+        /* Force clickable area */
+        .compact-links *, .project-links * {
+            pointer-events: auto !important;
+            z-index: 999999 !important;
+        }
+        /* ================================
+           END UNIVERSAL LINK FIX
+           ================================ */
+        
         /* Sophisticated Loading Screen */
         .loading-overlay {
             position: fixed;
@@ -834,7 +863,7 @@
             font-weight: 800;
             color: white;
             margin-bottom: 1rem;
-            opacity: 0;
+            opacity: 1;
             animation: fadeInUp 1s ease 0.5s forwards;
         }
         
@@ -842,7 +871,7 @@
             font-size: 1.5rem;
             color: rgba(255, 255, 255, 0.9);
             margin-bottom: 2rem;
-            opacity: 0;
+            opacity: 1;
             animation: fadeInUp 1s ease 0.7s forwards;
         }
         
@@ -2333,9 +2362,9 @@
             100% { width: 100%; }
         }
         
-        /* Hide main content initially */
+        /* Show main content immediately - no hiding behind loading screen */
         .main-content {
-            opacity: 0;
+            opacity: 1;
             transition: opacity 1s ease;
         }
         
@@ -3619,6 +3648,31 @@
         
         // Loading Screen Animation
         window.addEventListener('load', function() {
+            // UNIVERSAL LINK FIX - Force all links to work
+            setTimeout(function() {
+                const allLinks = document.querySelectorAll('a, .nav-link, .compact-link, .project-link, .btn-custom');
+                allLinks.forEach(link => {
+                    // Force CSS properties
+                    link.style.pointerEvents = 'auto';
+                    link.style.zIndex = '999999';
+                    link.style.position = 'relative';
+                    link.style.cursor = 'pointer';
+                    
+                    // Remove any blocking event listeners
+                    link.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        if (this.href && this.href !== '#' && this.href !== 'javascript:void(0)') {
+                            if (this.target === '_blank' || this.hasAttribute('target')) {
+                                window.open(this.href, '_blank');
+                            } else {
+                                window.location.href = this.href;
+                            }
+                        }
+                    }, true);
+                });
+                console.log('✅ Fixed', allLinks.length, 'links to be clickable');
+            }, 100);
+            
             // Simulate loading time (3 seconds)
             setTimeout(function() {
                 const loadingScreen = document.getElementById('loadingScreen');
