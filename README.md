@@ -4,14 +4,14 @@
 
 ![Portfolio Banner](./docs/ai-brain-analytics.jpg)
 
-[![Portfolio Website](https://img.shields.io/badge/🌐_Portfolio-Live_Website-667eea?style=for-the-badge&logoColor=white)](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/)
+[![Portfolio Website](https://img.shields.io/badge/🌐_The_7th_Sense-Live_Website-667eea?style=for-the-badge&logoColor=white)](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/index.html)
 [![Trading Platform](https://img.shields.io/badge/🚀_Trading-Live_Platform-764ba2?style=for-the-badge&logoColor=white)](https://bidiascapitalconsulting.netlify.app/)
 [![GitHub](https://img.shields.io/badge/💻_Code-GitHub_Repository-f093fb?style=for-the-badge&logoColor=white)](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO)
 
 </div>
 
 ## 🌐 **Live Portfolio Website**
-### 🔗 **[View Portfolio → https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/)**
+### 🔗 **[View "The 7th Sense" Portfolio → https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/index.html](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/index.html)**
 
 ---
 
@@ -628,7 +628,7 @@ flowchart TB
 <div align="center">
 
 ### 🌐 **Live Platforms**
-[![Portfolio Website](https://img.shields.io/badge/🌐_Portfolio-Live_Website-667eea?style=for-the-badge&logo=react)](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/)
+[![Portfolio Website](https://img.shields.io/badge/🌐_The_7th_Sense-Live_Website-667eea?style=for-the-badge&logo=react)](https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/docs/index.html)
 [![Trading Platform](https://img.shields.io/badge/🚀_Trading-Live_Platform-764ba2?style=for-the-badge&logo=python)](https://bidiascapitalconsulting.netlify.app/)
 [![Software Portfolio](https://img.shields.io/badge/💻_Software-Engineering_Portfolio-f093fb?style=for-the-badge&logo=github)](https://eaglepython.github.io/Software-Engineer-Portofolio/)
 
