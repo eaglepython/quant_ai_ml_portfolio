@@ -1,22 +1,13 @@
-# GitHub Pages Configuration for Joseph Bidias Portfolio
-title: "Joseph Bidias - Elite Quantitative Research Engineer"
-description: "Professional portfolio showcasing elite quantitative research and AI/ML expertise"
-url: "https://eaglepython.github.io"
-baseurl: "/QUANT_AI_ML_PORTOFOLIO"
+# Joseph Bidias - Elite Quantitative Researcher Portfolio
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-theme: minima
+## GitHub Pages Configuration
 
-# Exclude files
-exclude:
-  - README.md
-  - package.json
+This repository contains a professional portfolio website showcasing elite quantitative research and AI/ML expertise.
 
-# Include files
-include:
-  - .nojekyll
+### 🚀 Live Website
+**URL**: https://eaglepython.github.io/QUANT_AI_ML_PORTOFOLIO/
+
+### 📋 Setup Instructions
 
 #### 1. GitHub Pages Configuration
 1. Go to repository **Settings** → **Pages**

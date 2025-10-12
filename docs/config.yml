@@ -1,0 +1,60 @@
+title: Joseph Bidias - Elite Quantitative Researcher & AI/ML Specialist
+description: Elite Quantitative Researcher with 7+ years experience, 28.4% live trading returns, and 200K+ users served. MS Financial Engineering 2025.
+url: https://eaglepython.github.io
+baseurl: /QUANT_AI_ML_PORTOFOLIO
+
+# SEO and social media
+author: Joseph Bidias
+twitter:
+  username: eaglepython
+  card: summary_large_image
+
+# GitHub Pages specific
+github:
+  repository_url: https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - performance.html
+  - experience.html
+  - projects.html
+  - skills.html
+  - contact.html
+
+# Social links
+github_username: eaglepython
+linkedin_username: joseph-bidias-eaglepython
+email: bidias_consulting@outlook.com
+
+# Performance metrics (updated dynamically)
+live_metrics:
+  trading_returns: "48.6%"
+  hft_latency: "5μs"
+  sharpe_ratio: "2.84"
+  users_served: "200K+"
+  uptime: "99.9%"
+
+# SEO optimization
+lang: en-US
+google_analytics: # Add your GA tracking ID if needed
+
+# Build exclusions
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
