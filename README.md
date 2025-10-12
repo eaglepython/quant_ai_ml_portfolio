@@ -10,8 +10,8 @@
 
 </div>
 
-## 🌐 **Live Portfolio Website**
-### 🔗 **[View "The 7th Sense" Portfolio → https://eaglepython.github.io/quant_ai_ml_portfolio/](https://eaglepython.github.io/quant_ai_ml_portfolio/)**
+## 🌐 **[Live Portfolio Website](https://eaglepython.github.io/quant_ai_ml_portfolio/)**
+
 
 ---
 
