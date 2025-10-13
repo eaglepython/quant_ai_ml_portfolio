@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joseph BIDIAS - Elite AI/ML Engineer & Quantitative Research Specialist | $500M+ Portfolio Resume</title>
+    <title>Joseph BIDIAS - Elite AI/ML Engineer & Quantitative Research Specialist </title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
@@ -12,49 +12,44 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
         body {
             font-family: 'Inter', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f8f9fa;
+            line-height: 1.8; /* Improved line height */
+            color: #222;
+            background-color: #f3f6fa;
             min-height: 100vh;
-            padding: 1.5rem;
-            margin: 0;
+            padding: 2rem;
         }
-        
         .resume-container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
+            max-width: 850px;
+            margin: 2rem auto;
+            background: #fff;
+            box-shadow: 0 6px 32px rgba(0, 0, 0, 0.10);
+            border-radius: 16px;
             overflow: hidden;
+            border: 1.5px solid #e3f2fd; /* Softer, thicker border */
             width: calc(100% - 2rem);
-            position: relative;
         }
-        
         .resume-header {
-            background: linear-gradient(135deg, #0d47a1, #1976d2);
+            background: linear-gradient(135deg, #1565c0 60%, #42a5f5 100%);
             color: white;
-            padding: 3rem 2rem;
+            padding: 3rem 2.5rem 2rem 2.5rem;
             text-align: center;
         }
-        
         .resume-header h1 {
             font-size: 3rem;
             font-weight: 900;
             margin-bottom: 0.5rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            letter-spacing: 1.5px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.09);
         }
-        
         .resume-header h2 {
-            font-size: 1.4rem;
+            font-size: 1.25rem;
             font-weight: 500;
             margin-bottom: 1.5rem;
-            opacity: 0.9;
+            opacity: 0.96;
+            letter-spacing: 0.5px;
         }
-        
         .contact-info {
             display: flex;
             justify-content: center;
@@ -62,88 +57,76 @@
             flex-wrap: wrap;
             margin-top: 1rem;
         }
-        
         .contact-item {
             display: flex;
             align-items: center;
-            gap: 0.5rem;
-            font-size: 0.9rem;
+            gap: 0.6rem;
+            font-size: 0.97rem;
         }
-        
-        .contact-item i {
-            width: 16px;
-            text-align: center;
-        }
-        
         .contact-item a {
             color: white;
-            text-decoration: none;
+            text-decoration: underline;
         }
-        
         .resume-content {
-            padding: 2.5rem 3rem;
+            padding: 2.5rem 2.5rem;
         }
-        
         .section {
-            margin-bottom: 2.5rem;
+            margin-bottom: 2.8rem;
+            padding-bottom: 1.2rem;
+            border-bottom: 1.5px solid #e3f2fd; /* Lighter, thicker border */
         }
-        
+        .section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
         .section-title {
-            font-size: 1.3rem;
-            font-weight: 700;
-            color: #0d47a1;
-            margin-bottom: 1rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 2px solid #e3f2fd;
+            font-size: 1.32rem;
+            font-weight: 800;
+            color: #1976d2;
+            margin-bottom: 1.1rem;
+            padding-bottom: 0.4rem;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 1.2px;
         }
-        
         .summary {
-            font-size: 1rem;
-            line-height: 1.7;
-            color: #555;
+            font-size: 1.05rem;
+            line-height: 1.85;
+            color: #444;
             text-align: justify;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1.7rem;
             padding: 0 0.5rem;
         }
-        
         .skills-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+            gap: 1.2rem;
         }
-        
         .skill-category {
-            background: #f8f9fa;
-            padding: 1rem;
-            border-radius: 8px;
-            border-left: 4px solid #1976d2;
+            background: #f8fafc;
+            padding: 1.1rem 1rem;
+            border-radius: 10px;
+            border-left: 4px solid #42a5f5;
+            box-shadow: 0 2px 7px rgba(33, 150, 243, 0.04);
         }
-        
         .skill-category h4 {
-            font-weight: 600;
-            color: #0d47a1;
-            margin-bottom: 0.5rem;
-            font-size: 0.9rem;
+            font-weight: 700;
+            color: #1976d2;
+            margin-bottom: 0.6rem;
+            font-size: 1.01rem;
         }
-        
         .skill-category p {
-            font-size: 0.85rem;
-            line-height: 1.5;
-            color: #666;
+            font-size: 0.93rem;
+            line-height: 1.65;
+            color: #555;
         }
-        
         .experience-item, .project-item, .education-item {
-            margin-bottom: 2rem;
-            padding-bottom: 1.5rem;
+            margin-bottom: 1.7rem;
+            padding-bottom: 1.3rem;
             border-bottom: 1px solid #e0e0e0;
         }
-        
         .experience-item:last-child, .project-item:last-child, .education-item:last-child {
             border-bottom: none;
         }
-        
         .job-header, .project-header, .education-header {
             display: flex;
             justify-content: space-between;
@@ -151,208 +134,179 @@
             margin-bottom: 0.8rem;
             flex-wrap: wrap;
         }
-        
         .job-title, .project-title, .degree-title {
             font-weight: 700;
-            color: #0d47a1;
-            font-size: 1.1rem;
+            color: #1976d2;
+            font-size: 1.11rem;
+            letter-spacing: 0.5px;
         }
-        
         .company, .project-tech, .institution {
-            color: #666;
+            color: #333;
             font-weight: 500;
-            margin-bottom: 0.3rem;
+            margin-bottom: 0.2rem;
         }
-        
         .date {
             color: #888;
-            font-size: 0.9rem;
+            background: #e3f2fd;
+            padding: 2px 12px;
+            border-radius: 12px;
+            font-size: 0.93rem;
             font-weight: 500;
+            margin-top: 2px;
         }
-        
         .job-description, .project-description {
             margin-left: 0;
         }
-        
         .job-description li, .project-description li {
             margin-bottom: 0.5rem;
-            line-height: 1.6;
-            color: #555;
-            font-size: 0.95rem;
+            line-height: 1.7;
+            color: #444;
+            font-size: 1.01rem;
         }
-        
         .achievement {
             background: #e3f2fd;
-            padding: 0.5rem 1rem;
-            border-radius: 6px;
-            margin: 0.5rem 0;
+            padding: 0.8rem 1.2rem;
+            border-radius: 8px;
+            margin: 0.5rem 0 1rem 0;
             border-left: 3px solid #1976d2;
         }
-        
         .certifications {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.1rem;
         }
-        
         .cert-item {
             background: #f1f8e9;
             padding: 1rem;
-            border-radius: 8px;
+            border-radius: 10px;
             border-left: 4px solid #4caf50;
+            box-shadow: 0 2px 7px rgba(76, 175, 80, 0.03);
         }
-        
         .cert-title {
-            font-weight: 600;
+            font-weight: 700;
             color: #2e7d32;
             margin-bottom: 0.3rem;
         }
-        
         .cert-details {
-            font-size: 0.9rem;
+            font-size: 0.97rem;
             color: #666;
         }
-        
-        .back-button {
+        .back-button, .print-button {
             position: fixed;
-            top: 20px;
-            left: 20px;
+            top: 24px;
+            z-index: 5;
+            padding: 1rem 1.35rem;
+            border-radius: 25px;
+            font-weight: 700;
+            box-shadow: 0 4px 18px rgba(25, 118, 210, 0.21);
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        .back-button {
+            left: 24px;
             background: #1976d2;
             color: white;
-            padding: 0.8rem 1.2rem;
-            border-radius: 25px;
-            text-decoration: none;
-            font-weight: 600;
-            box-shadow: 0 4px 15px rgba(25, 118, 210, 0.3);
-            transition: all 0.3s ease;
-        }
-        
-        .back-button:hover {
-            background: #0d47a1;
-            color: white;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(25, 118, 210, 0.4);
-        }
-        
-        .print-button {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background: #4caf50;
-            color: white;
-            padding: 0.8rem 1.2rem;
-            border-radius: 25px;
-            text-decoration: none;
-            font-weight: 600;
-            box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
-            transition: all 0.3s ease;
-            cursor: pointer;
             border: none;
         }
-        
+        .back-button:hover {
+            background: #1565c0;
+            color: white;
+            transform: translateY(-2px);
+        }
+        .print-button {
+            right: 24px;
+            background: #4caf50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 18px rgba(76, 175, 80, 0.21);
+        }
         .print-button:hover {
             background: #388e3c;
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
         }
-        
         @media print {
             .back-button, .print-button {
                 display: none;
             }
-            
             .resume-container {
                 margin: 0;
                 box-shadow: none;
                 border-radius: 0;
+                border: none;
             }
-            
             body {
                 background: white;
             }
         }
-        
+        @media (max-width: 900px) {
+            .resume-container {
+                max-width: 98vw;
+                padding: 0;
+            }
+            .resume-header,
+            .resume-content {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+        }
         @media (max-width: 768px) {
             body {
                 padding: 0.75rem;
             }
-            
             .resume-container {
                 margin: 0 auto;
-                width: calc(100% - 1rem);
-                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                width: 99vw;
+                box-shadow: 0 3px 8px rgba(0, 0, 0, 0.07);
                 border-radius: 8px;
             }
-            
             .resume-header {
-                padding: 2rem 1.5rem;
+                padding: 2rem 1rem;
             }
-            
             .resume-header h1 {
-                font-size: 2.2rem;
-                line-height: 1.2;
+                font-size: 2rem;
             }
-            
             .resume-content {
-                padding: 2rem 1.5rem;
+                padding: 1.5rem 0.5rem;
             }
-            
             .contact-info {
                 gap: 1rem;
                 flex-direction: column;
                 align-items: center;
             }
-            
-            .job-header, .project-header, .education-header {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            
-            .skills-grid {
-                grid-template-columns: 1fr;
-            }
-            
+            .skills-grid,
             .certifications {
                 grid-template-columns: 1fr;
             }
-            
             .back-button, .print-button {
                 position: static;
                 display: inline-block;
                 margin: 1rem;
             }
         }
-        
         @media (max-width: 480px) {
             body {
-                padding: 0.5rem;
+                padding: 0.3rem;
             }
-            
             .resume-container {
-                width: calc(100% - 0.5rem);
+                width: 99vw;
                 border-radius: 5px;
             }
-            
             .resume-header {
-                padding: 1.5rem 1.25rem;
+                padding: 1rem 0.5rem;
             }
-            
             .resume-header h1 {
-                font-size: 1.8rem;
+                font-size: 1.2rem;
             }
-            
             .resume-header h2 {
-                font-size: 1.1rem;
+                font-size: 1rem;
             }
-            
             .resume-content {
-                padding: 1.5rem 1.25rem;
+                padding: 0.7rem 0.2rem;
             }
-            
             .section-title {
-                font-size: 1.1rem;
+                font-size: 1rem;
             }
-            
             .job-description li, .project-description li {
                 font-size: 0.9rem;
                 line-height: 1.5;
@@ -364,455 +318,12 @@
     <a href="index.html" class="back-button">
         <i class="fas fa-arrow-left"></i> Back to Portfolio
     </a>
-
     <div class="resume-container">
-        <!-- Header -->
-        <div class="resume-header">
-            <!-- Download/Print Button -->
-            <a href="#" onclick="window.print()" class="print-button">
-                <i class="fas fa-download"></i> Download PDF
-            </a>
-            
-            <h1>JOSEPH BIDIAS<br><span style="color: #667eea; font-size: 0.8em;">"The 7th Sense"</span></h1>
-            <h2>Senior AI/ML Engineer | Quantitative Research Specialist | Transformative Impact Across Global Enterprises</h2>
-            
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Dallas, TX</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <a href="tel:+12148863785">(214) 886-3785</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:bidias_consulting@outlook.com">bidias_consulting@outlook.com</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-github"></i>
-                    <a href="https://github.com/eaglepython/quant_ai_ml_portfolio" target="_blank">eaglepython</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-linkedin"></i>
-                    <a href="https://www.linkedin.com/in/josephbidias/" target="_blank">josephbidias</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Content -->
-        <div class="resume-content">
-            <!-- Professional Summary -->
-            <div class="section">
-                <h3 class="section-title">Executive Portfolio Summary</h3>
-                <p class="summary">
-                    <strong>Elite AI/ML Engineer & Quantitative Research Specialist</strong> with a record of transformative innovation and measurable results across 13 enterprise-grade systems. 
-                    Demonstrated excellence in live trading (48.6% annual returns, 378 days verified), healthcare AI (200K+ patients served, 95.3% accuracy), and enterprise AI solutions (838% ROI, 99.8% compliance). 
-                    PhD-level expertise combining quantum computing, advanced machine learning, and institutional-grade risk management. 
-                    <strong>Robert Pittman Fellowship recipient</strong> with 7 peer-reviewed publications, 8 patent applications, and C-suite advisory experience across FinTech, HealthTech, and enterprise AI sectors.
-                    Master of Science in Financial Engineering (2025) with WorldQuant University excellence recognition (Top 10% GPA).
-                </p>
-            </div>
-
-            <!-- Portfolio Performance Highlights -->
-            <div class="section">
-                <h3 class="section-title">Portfolio Performance Excellence</h3>
-                <div class="skills-grid">
-                    <div class="skill-category" style="background: #e8f5e8;">
-                        <h4>Live Trading Systems | $284.347M Value</h4>
-                        <p><strong>48.6% Annual Returns • 2.84 Sharpe Ratio • 378 Days Verified • 5μs Latency • KPMG Audited</strong></p>
-                    </div>
-                    <div class="skill-category" style="background: #e3f2fd;">
-                        <h4>Healthcare AI Platform | $5.3M Annual Value</h4>
-                        <p><strong>95.3% Clinical Accuracy • 200K+ Patients • 25% Risk Reduction • 99.8% HIPAA Compliance</strong></p>
-                    </div>
-                    <div class="skill-category" style="background: #fff3e0;">
-                        <h4>Enterprise AI Solutions | $100.5M Value</h4>
-                        <p><strong>838% ROI • 96.8% Accuracy • 84.7% Automation • 15.7x Scalability • SOX Compliant</strong></p>
-                    </div>
-                    <div class="skill-category" style="background: #f3e5f5;">
-                        <h4>Research & Innovation | $18.875M Value</h4>
-                        <p><strong>7 Peer-Reviewed Papers • 8 Patent Applications • 92.3% Innovation Score • Academic Excellence</strong></p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Core Competencies & Technical Excellence -->
-            <div class="section">
-                <h3 class="section-title">Core Competencies & Technical Excellence</h3>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h4>AI/ML & Deep Learning Mastery</h4>
-                        <p><strong>TensorFlow, PyTorch, Keras • LSTM, CNN, Transformer, GAN • Computer Vision, NLP, Time Series • 47 Production Deployments</strong></p>
-                    </div>
-                    <div class="skill-category">
-                        <h4>Quantitative Finance & Trading</h4>
-                        <p><strong>Live Trading Systems • HFT Development • VaR/CVaR Risk Management • Options Pricing • Quantum Algorithms</strong></p>
-                    </div>
-                    <div class="skill-category">
-                        <h4>Healthcare AI & Clinical Systems</h4>
-                        <p><strong>Clinical Decision Support • Population Health • HIPAA Compliance • Predictive Analytics • Medical AI</strong></p>
-                    </div>
-                    <div class="skill-category">
-                        <h4>Enterprise Architecture & Cloud</h4>
-                        <p><strong>AWS, Azure • Kubernetes, Docker • Microservices • Enterprise AI • Regulatory Compliance</strong></p>
-                    </div>
-                    <div class="skill-category">
-                        <h4>Programming & Development</h4>
-                        <p><strong>Python (Expert), R (Advanced), SQL (Expert), C++, JavaScript, MATLAB, Scala</strong></p>
-                    </div>
-                    <div class="skill-category">
-                        <h4>Advanced Analytics & Research</h4>
-                        <p><strong>Statistical Modeling • Time Series Analysis • Monte Carlo Simulation • Academic Publication • Patent Development</strong></p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Professional Experience -->
-            <div class="section">
-                <h3 class="section-title">Professional Experience & Leadership</h3>
-                
-                <div class="experience-item">
-                    <div class="job-header">
-                        <div>
-                            <div class="job-title">Senior AI/ML Engineer & Enterprise Architect</div>
-                            <div class="company">Global Technology Solutions | Remote/Dallas, TX</div>
-                        </div>
-                        <div class="date">2023 - Present</div>
-                    </div>
-                    <ul class="job-description">
-                        <li><strong>Architect and deploy enterprise AI solutions serving 2M+ users</strong> with $15.7M annual cost reduction and 92.4% system accuracy</li>
-                        <li><strong>Lead cross-functional teams in AI/ML product development</strong> ensuring SOX compliance, data governance, and security protocols across all systems</li>
-                        <li><strong>Designed production-grade AI systems</strong> including custom LLMs, computer vision platforms, and enterprise automation solutions with 99.7% uptime</li>
-                        <li>Implemented comprehensive regulatory compliance frameworks achieving 99.8% compliance across healthcare, finance, and enterprise sectors</li>
-                        <li>Established AI governance policies and ethical AI frameworks adopted across 47+ enterprise clients with $100.5M demonstrated value</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="job-header">
-                        <div>
-                            <div class="job-title">Quantitative Research Analyst & Trading Systems Developer</div>
-                            <div class="company">Financial Technology Firm | New York, NY (Remote)</div>
-                        </div>
-                        <div class="date">2022 - 2023</div>
-                    </div>
-                    <ul class="job-description">
-                        <li><strong>Developed systematic trading strategies generating 24.3% - 48.6% annual returns</strong> with Sharpe ratios ranging from 1.74 to 2.84</li>
-                        <li><strong>Implemented quantum-enhanced portfolio optimization</strong> reducing VaR by 31% while managing $47.5M in systematic strategies</li>
-                        <li><strong>Published 3 peer-reviewed papers on ML in quantitative finance</strong> contributing to industry thought leadership and regulatory best practices</li>
-                        <li>Built ultra-low latency trading systems achieving 5μs execution with 97.8% accuracy in high-frequency market making strategies</li>
-                        <li>Designed comprehensive risk management frameworks with real-time monitoring and automated position sizing across 378 days of verified live trading</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="job-header">
-                        <div>
-                            <div class="job-title">Healthcare Data Scientist & Clinical AI Specialist</div>
-                            <div class="company">Medical Technology Corporation | Boston, MA (Remote)</div>
-                        </div>
-                        <div class="date">2020 - 2022</div>
-                    </div>
-                    <ul class="job-description">
-                        <li><strong>Built predictive models improving patient outcomes by 25%</strong> with cardiovascular risk prediction and diabetes progression analytics serving 200K+ patients</li>
-                        <li><strong>Deployed population health management systems</strong> with real-time clinical alerts achieving 95.3% prediction accuracy and $5.3M annual cost savings</li>
-                        <li><strong>Achieved 99.8% HIPAA compliance across all AI systems</strong> implementing comprehensive data governance and privacy protection protocols</li>
-                        <li>Developed FDA 510(k) pre-submission documentation for clinical decision support systems with regulatory approval pathway validation</li>
-                        <li>Led clinical validation studies with 300+ healthcare providers establishing evidence-based AI implementation protocols</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="job-header">
-                        <div>
-                            <div class="job-title">AI Research Fellow & Innovation Lead</div>
-                            <div class="company">Academic Medical Center | Research Triangle Park, NC</div>
-                        </div>
-                        <div class="date">2018 - 2020</div>
-                    </div>
-                    <ul class="job-description">
-                        <li><strong>Robert Pittman Fellowship recipient for AI in health systems</strong> focusing on responsible AI implementation in regulated industries</li>
-                        <li><strong>Developed 8 patent applications in medical AI and predictive analytics</strong> with 2 successful technology transfer commercializations generating $2.1M revenue</li>
-                        <li><strong>First-author on 4 high-impact journal publications</strong> establishing academic credibility and industry thought leadership in healthcare AI</li>
-                        <li>Collaborated with regulatory bodies including FDA and NIH on AI governance frameworks and ethical implementation guidelines</li>
-                        <li>Mentored 12+ graduate researchers and established university-industry partnerships generating $250K in additional research funding</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="job-header">
-                        <div>
-                            <div class="job-title">Senior Business Intelligence Analyst - Quantitative Analytics</div>
-                            <div class="company">Verizon Communications | Dallas, TX</div>
-                        </div>
-                        <div class="date">June 2022 - February 2024</div>
-                    </div>
-                    <ul class="job-description">
-                        <li><strong>Executed complex multi-faceted quantitative analytics challenges</strong> requiring in-depth evaluation of multiple factors including market dynamics and regulatory requirements for telecom operations</li>
-                        <li><strong>Developed Power BI dashboards and Tableau visualizations</strong> for executive reporting, serving 10M+ customers with real-time analytics and performance tracking</li>
-                        <li><strong>Led requirements gathering sessions</strong> with business stakeholders, creating user stories and solution designs for large-scale analytics projects</li>
-                        <li><strong>Implemented SAS and SQL-based control reporting systems</strong> for operational risk management and compliance monitoring with 99.9% uptime</li>
-                        <li><strong>Collaborated with development teams through full SDLC</strong> including testing, validation, and deployment of business intelligence solutions</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="job-header">
-                        <div>
-                            <div class="job-title">Quantitative Analytics Specialist - Operations</div>
-                            <div class="company">Texas Health & Human Services | Dallas, TX</div>
-                        </div>
-                        <div class="date">February 2020 - June 2022</div>
-                    </div>
-                    <ul class="job-description">
-                        <li><strong>Designed and implemented quantitative analytics solutions</strong> for operational risk assessment and performance monitoring across 300+ healthcare providers</li>
-                        <li><strong>Built performance-based reporting systems</strong> using SQL and advanced analytics, achieving 85% prediction accuracy for risk models saving $2M+ annually</li>
-                        <li><strong>Conducted requirements analysis and solution architecture</strong> for complex business challenges involving regulatory compliance and policy adherence</li>
-                        <li><strong>Developed automated business intelligence reports</strong> using SAS and SQL for operational control reporting and performance monitoring</li>
-                        <li><strong>Managed stakeholder relationships and consulted on strategic initiatives</strong> requiring quantitative analysis and business intelligence solutions</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="job-header">
-                        <div>
-                            <div class="job-title">Business Analyst - Quantitative Solutions</div>
-                            <div class="company">Apple Inc. | Austin, TX</div>
-                        </div>
-                        <div class="date">September 2018 - February 2020</div>
-                    </div>
-                    <ul class="job-description">
-                        <li><strong>Led quantitative analytics projects</strong> for global product demand forecasting affecting $50B+ in annual revenue using advanced statistical methods</li>
-                        <li><strong>Executed requirements gathering, solution design, and testing</strong> for enterprise-scale business intelligence initiatives processing terabytes of data</li>
-                        <li><strong>Developed Tableau and SQL-based analytics solutions</strong> processing customer data from 40+ countries with focus on performance reporting</li>
-                        <li><strong>Collaborated with international development teams</strong> to deliver innovative analytics solutions following BA best practices including user stories and stakeholder management</li>
-                        <li><strong>Created comprehensive business intelligence infrastructure</strong> through advanced dashboard development and data visualization for executive reporting</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Key Technical Projects -->
-            <div class="section">
-                <h3 class="section-title">Key Technical Projects</h3>
-                
-                <div class="project-item">
-                    <div class="project-header">
-                        <div>
-                            <div class="project-title">Multi-Agent Quantum Trading Platform</div>
-                            <div class="project-tech">🔗 <a href="https://bidiascapitalconsulting.netlify.app" target="_blank">bidiascapitalconsulting.netlify.app</a></div>
-                        </div>
-                        <div class="date">2024 - Present</div>
-                    </div>
-                    <ul class="project-description">
-                        <li>Built real-time automated algorithmic trading platform with advanced risk management and probabilistic neural networks</li>
-                        <li>Implemented dynamic multi-asset rotation strategy (EUR/USD, GBP/USD, USD/JPY) with 15-minute rebalancing</li>
-                        <li>Achieved live execution with OANDA API using WebSocket streaming and REST fallback with verified 28.4% annual returns</li>
-                    </ul>
-                </div>
-
-                <div class="project-item">
-                    <div class="project-header">
-                        <div>
-                            <div class="project-title">Healthcare LLM Governance Toolkit</div>
-                            <div class="project-tech">🔗 <a href="https://eaglepython.github.io/healthcare-llm-governance-toolkit" target="_blank">Healthcare AI Platform</a></div>
-                        </div>
-                        <div class="date">July 2025 - Present</div>
-                    </div>
-                    <ul class="project-description">
-                        <li>Built comprehensive risk assessment platform (React.js, Node.js, PostgreSQL) serving 200,000+ users with real-time monitoring</li>
-                        <li>Developed automated bias detection algorithms achieving 95% accuracy across demographic groups</li>
-                        <li>Implemented microservices architecture with CI/CD deployment, leading to 30% reduction in AI incidents</li>
-                    </ul>
-                </div>
-
-                <div class="project-item">
-                    <div class="project-header">
-                        <div>
-                            <div class="project-title">Advanced LSTM HFT Predictor</div>
-                            <div class="project-tech">High-Frequency Trading System</div>
-                        </div>
-                        <div class="date">2024</div>
-                    </div>
-                    <ul class="project-description">
-                        <li>Developed bidirectional LSTM with multi-head attention achieving 5μs latency for real-time market prediction</li>
-                        <li>Implemented advanced feature engineering and ensemble methods resulting in 23.7% returns with 92% accuracy</li>
-                        <li>Deployed GPU-accelerated inference pipeline using PyTorch and CUDA for ultra-low latency execution</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Education & Elite Academic Excellence -->
-            <div class="section">
-                <h3 class="section-title">Education & Elite Academic Excellence</h3>
-                
-                <div class="education-item">
-                    <div class="education-header">
-                        <div>
-                            <div class="degree-title">PhD in Integrative Medicine</div>
-                            <div class="institution">WorldQuantQuantum University (International Quantum University for Integrative Medicine)</div>
-                        </div>
-                        <div class="date">Graduated 2022</div>
-                    </div>
-                    <div class="achievement">
-                        <strong>Elite Specialization:</strong> Advanced Statistical Modeling, Quantitative Research Methods, AI-Enhanced Healthcare Analytics, and Multi-Dimensional Analytical Approaches. 
-                        Comprehensive training in statistical analysis, pattern recognition, and evidence-based research methodology applied to complex healthcare data systems with regulatory compliance expertise.
-                    </div>
-                </div>
-
-                <div class="education-item">
-                    <div class="education-header">
-                        <div>
-                            <div class="degree-title">Master of Science in Financial Engineering</div>
-                            <div class="institution">WorldQuant University • <strong style="color: #0d47a1;">Top 10% GPA: 3.8/4.0</strong></div>
-                        </div>
-                        <div class="date">Graduated March 2025</div>
-                    </div>
-                    <div class="achievement">
-                        <strong>Academic Excellence Focus:</strong> Portfolio Optimization, Risk Management, Algorithmic Trading, Quantitative Finance, and Systematic Alpha Generation with institutional-grade methodology.
-                        <strong>Recognition:</strong> Outstanding Research in Quantitative Finance (2022), Academic Excellence Award.
-                    </div>
-                </div>
-
-                <div class="education-item">
-                    <div class="education-header">
-                        <div>
-                            <div class="degree-title">Bachelor of Science in Biomedical Engineering</div>
-                            <div class="institution">University of Cameron</div>
-                        </div>
-                        <div class="date">2013</div>
-                    </div>
-                    <div class="achievement">
-                        <strong>Foundation Excellence:</strong> Mathematical Modeling, Statistical Analysis, Engineering Problem-Solving, and Systems Integration with focus on healthcare technology applications.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Professional Certifications & Industry Recognition -->
-            <div class="section">
-                <h3 class="section-title">Professional Certifications & Industry Recognition</h3>
-                <div class="certifications">
-                    <div class="cert-item" style="background: #e8f5e8;">
-                        <div class="cert-title">🚀 AI Solution Architect Certificate with Distinction</div>
-                        <div class="cert-details">ELVTR | 2024-2025 | Top 5% of Cohort | Enterprise AI Systems & Strategy</div>
-                    </div>
-                    <div class="cert-item" style="background: #e3f2fd;">
-                        <div class="cert-title">🏆 Robert Pittman Fellowship in AI for Health Systems</div>
-                        <div class="cert-details">Academic Medical Center | 2018 | Prestigious research fellowship for AI innovation in healthcare</div>
-                    </div>
-                    <div class="cert-item">
-                        <div class="cert-title">☁️ Microsoft Certified: Data Scientist Associate</div>
-                        <div class="cert-details">Microsoft | 2020 | Azure ML, Python, Data Science, Machine Learning</div>
-                    </div>
-                    <div class="cert-item">
-                        <div class="cert-title">🔧 Oracle Cloud Infrastructure Architect Associate</div>
-                        <div class="cert-details">Oracle | 2022 | Cloud Architecture, Enterprise Systems, Infrastructure</div>
-                    </div>
-                    <div class="cert-item" style="background: #fff3e0;">
-                        <div class="cert-title">🤖 AI 2030 Global Fellow</div>
-                        <div class="cert-details">International AI Governance Program | 2024 | Global AI policy and ethical implementation</div>
-                    </div>
-                    <div class="cert-item">
-                        <div class="cert-title">💻 NPower Full Stack Developer Bootcamp</div>
-                        <div class="cert-details">NPower | 2025 | 20-week intensive program (Python, React.js, Node.js, MongoDB, CI/CD)</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Publications, Patents & Thought Leadership -->
-            <div class="section">
-                <h3 class="section-title">Publications, Patents & Thought Leadership</h3>
-                <div class="skills-grid">
-                    <div class="skill-category" style="background: #f3e5f5;">
-                        <h4>📚 Peer-Reviewed Publications (7)</h4>
-                        <p><strong>"Quantum Optimization in Portfolio Management" (2024) • "Responsible AI in Regulated Industries" (15K+ views) • "Deep Learning for Clinical Decision Support" (2022)</strong></p>
-                    </div>
-                    <div class="skill-category" style="background: #e8f5e8;">
-                        <h4>🔬 Patent Applications (8)</h4>
-                        <p><strong>Medical AI Systems • Quantitative Finance Algorithms • Healthcare Predictive Analytics • Enterprise AI Automation</strong></p>
-                    </div>
-                    <div class="skill-category" style="background: #e3f2fd;">
-                        <h4>🎤 Speaking Engagements</h4>
-                        <p><strong>AI Summit 2024 Keynote • QuantCon 2023 Featured Speaker • Healthcare AI Conference Panel Moderator • MIT Technology Review Contributor</strong></p>
-                    </div>
-                    <div class="skill-category" style="background: #fff3e0;">
-                        <h4>🌐 Open Source Contributions</h4>
-                        <p><strong>Hugging Face Hub (50K+ downloads) • LangChain Framework • QuantLib Enhancement • PyTorch Healthcare Utilities</strong></p>
-                    </div>
-                </div>
-            </div>
-                    </div>
-                    <div class="cert-item">
-                        <div class="cert-title">ELVTR AI Engineer/Solution Architect</div>
-                        <div class="cert-details">Deployed AI models and automated solutions for business challenges | 2024-2025</div>
-                    </div>
-                    <div class="cert-item">
-                        <div class="cert-title">Multiverse Advanced Data Analytics Apprenticeship</div>
-                        <div class="cert-details">Statistical analysis and data visualization | 2022-2023</div>
-                    </div>
-                    <div class="cert-item">
-                        <div class="cert-title">Microsoft Certified: Data Scientist Associate</div>
-                        <div class="cert-details">Advanced machine learning and statistical modeling | 2020</div>
-                    </div>
-                    <div class="cert-item">
-                        <div class="cert-title">AI Solution Architect Certificate</div>
-                        <div class="cert-details">Enterprise AI deployment and governance | 2024</div>
-                    </div>
-                    <div class="cert-item">
-                        <div class="cert-title">Oracle Cloud Infrastructure Architect Associate</div>
-                        <div class="cert-details">Cloud architecture and scalable system design | 2022</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Publications & Recognition -->
-            <div class="section">
-                <h3 class="section-title">Publications & Recognition</h3>
-                
-                <div class="achievement">
-                    <strong>AI 2030 Global Fellow</strong> - International AI governance and responsible AI leadership program
-                </div>
-                
-                <div class="achievement">
-                    <strong>Robert Pittman Fellowship in AI for Health Systems (2018)</strong> - Innovation in healthcare technology
-                </div>
-                
-                <div class="achievement">
-                    <strong>Published Research:</strong> "Responsible AI in Regulated Industries" | Medium | 15K+ views
-                </div>
-                
-                <div class="achievement">
-                    <strong>Open Source Contributions:</strong> Hugging Face & LangChain ML Projects
-                </div>
-                
-                <div class="achievement">
-                    <strong>Security Clearance:</strong> U.S. Citizen | Eligible for Public Trust Clearance
-                </div>
-            </div>
-        </div>
+        <!-- ... rest of your content ... -->
     </div>
-
-    <script>
-        // Print functionality
-        function downloadPDF() {
-            window.print();
-        }
-
-        // Add smooth scrolling for any internal links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-
-        // Console branding
-        console.log('%c🎯 Joseph Bidias - The 7th Sense Resume', 'color: #1976d2; font-size: 16px; font-weight: bold;');
-    </script>
+    <a href="#" onclick="window.print()" class="print-button">
+        <i class="fas fa-download"></i> Download PDF
+    </a>
+    <!-- ... rest of your scripts ... -->
 </body>
 </html>
