@@ -86,10 +86,10 @@ This portfolio represents the pinnacle of quantitative finance and AI/ML enginee
 **🛠️ Technologies:** Python, SQL, Tableau, Apache Hadoop, Spark, Oracle, Teradata
 
 </details>
-## 🎓 Education & Elite Certifications
+## **🎓 Education & Elite Certifications**
 
 ### **Academic Excellence**
-- **🎓 PhD in Integrative Medicine** | WorldQuantQuantum University (2022)
+- **🎓 PhD in Integrative Medicine** | Quantum University (2022)
 - **🏆 Master of Science in Financial Engineering** | WorldQuant University (2025, GPA: 3.8/4.0)
 - **🔬 Bachelor of Science in Biomedical Engineering** | University of Cameron (2013)
 
