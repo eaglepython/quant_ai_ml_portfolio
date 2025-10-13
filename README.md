@@ -86,6 +86,7 @@ This portfolio represents the pinnacle of quantitative finance and AI/ML enginee
 **🛠️ Technologies:** Python, SQL, Tableau, Apache Hadoop, Spark, Oracle, Teradata
 
 </details>
+
 ## **🎓 Education & Elite Certifications**
 
 ### **Academic Excellence**
