@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Portfolio Banner](./docs/ai-brain-analytics.jpg)
+[![Portfolio Banner](./docs/ai-brain-analytics.jpg)](https://eaglepython.github.io/quant_ai_ml_portfolio/docs/index.html)
 
 [![Portfolio Website](https://img.shields.io/badge/🌐_The_7th_Sense-Live_Website-667eea?style=for-the-badge&logoColor=white)](https://eaglepython.github.io/quant_ai_ml_portfolio/)
 [![Trading Platform](https://img.shields.io/badge/🚀_Trading-Live_Platform-764ba2?style=for-the-badge&logoColor=white)](https://bidiascapitalconsulting.netlify.app/)
