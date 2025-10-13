@@ -12,7 +12,7 @@
 
 ## Executive Portfolio Summary
 
-**$500M+ Institutional Value Creation** | **99.7% System Uptime** | **378 Days Live Trading** | **Enterprise-Grade Scalability**
+**Institutional Value Creation** | **99.7% System Uptime** | **378 Days Live Trading** | **Enterprise-Grade Scalability**
 
 This portfolio represents the pinnacle of quantitative finance and AI/ML engineering excellence, featuring **13 production-ready systems** delivering **exceptional risk-adjusted returns**, **institutional-grade scalability**, and **measurable business impact** across healthcare, finance, and enterprise technology sectors.
 
