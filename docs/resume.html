@@ -18,15 +18,20 @@
             line-height: 1.6;
             color: #333;
             background-color: #f8f9fa;
+            min-height: 100vh;
+            padding: 1.5rem;
+            margin: 0;
         }
         
         .resume-container {
             max-width: 800px;
-            margin: 2rem auto;
+            margin: 0 auto;
             background: white;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
             overflow: hidden;
+            width: calc(100% - 2rem);
+            position: relative;
         }
         
         .resume-header {
@@ -76,7 +81,7 @@
         }
         
         .resume-content {
-            padding: 2rem;
+            padding: 2.5rem 3rem;
         }
         
         .section {
@@ -99,6 +104,8 @@
             line-height: 1.7;
             color: #555;
             text-align: justify;
+            margin-bottom: 1.5rem;
+            padding: 0 0.5rem;
         }
         
         .skills-grid {
@@ -266,16 +273,28 @@
         }
         
         @media (max-width: 768px) {
+            body {
+                padding: 0.75rem;
+            }
+            
             .resume-container {
-                margin: 1rem;
+                margin: 0 auto;
+                width: calc(100% - 1rem);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
             }
             
             .resume-header {
-                padding: 2rem 1rem;
+                padding: 2rem 1.5rem;
             }
             
             .resume-header h1 {
                 font-size: 2.2rem;
+                line-height: 1.2;
+            }
+            
+            .resume-content {
+                padding: 2rem 1.5rem;
             }
             
             .contact-info {
@@ -289,15 +308,63 @@
                 align-items: flex-start;
             }
             
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .certifications {
+                grid-template-columns: 1fr;
+            }
+            
             .back-button, .print-button {
                 position: static;
                 display: inline-block;
                 margin: 1rem;
             }
         }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 0.5rem;
+            }
+            
+            .resume-container {
+                width: calc(100% - 0.5rem);
+                border-radius: 5px;
+            }
+            
+            .resume-header {
+                padding: 1.5rem 1.25rem;
+            }
+            
+            .resume-header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .resume-header h2 {
+                font-size: 1.1rem;
+            }
+            
+            .resume-content {
+                padding: 1.5rem 1.25rem;
+            }
+            
+            .section-title {
+                font-size: 1.1rem;
+            }
+            
+            .job-description li, .project-description li {
+                font-size: 0.9rem;
+                line-height: 1.5;
+            }
+        }
     </style>
 </head>
 <body>
+    <a href="index.html" class="back-button">
+        <i class="fas fa-arrow-left"></i> Back to Portfolio
+    </a>
+
     <div class="resume-container">
         <!-- Header -->
         <div class="resume-header">
@@ -307,7 +374,7 @@
             </a>
             
             <h1>JOSEPH BIDIAS<br><span style="color: #667eea; font-size: 0.8em;">"The 7th Sense"</span></h1>
-            <h2>Senior AI/ML Engineer | Quantitative Research Specialist | $500M+ Portfolio Value Creation</h2>
+            <h2>Senior AI/ML Engineer | Quantitative Research Specialist | Transformative Impact Across Global Enterprises</h2>
             
             <div class="contact-info">
                 <div class="contact-item">
@@ -324,7 +391,7 @@
                 </div>
                 <div class="contact-item">
                     <i class="fab fa-github"></i>
-                    <a href="https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO" target="_blank">eaglepython</a>
+                    <a href="https://github.com/eaglepython/quant_ai_ml_portfolio" target="_blank">eaglepython</a>
                 </div>
                 <div class="contact-item">
                     <i class="fab fa-linkedin"></i>
@@ -339,7 +406,7 @@
             <div class="section">
                 <h3 class="section-title">Executive Portfolio Summary</h3>
                 <p class="summary">
-                    <strong>Elite AI/ML Engineer & Quantitative Research Specialist</strong> with proven <strong>$500M+ portfolio value creation</strong> across 13 production-grade systems. 
+                    <strong>Elite AI/ML Engineer & Quantitative Research Specialist</strong> with a record of transformative innovation and measurable results across 13 enterprise-grade systems. 
                     Demonstrated excellence in live trading (48.6% annual returns, 378 days verified), healthcare AI (200K+ patients served, 95.3% accuracy), and enterprise AI solutions (838% ROI, 99.8% compliance). 
                     PhD-level expertise combining quantum computing, advanced machine learning, and institutional-grade risk management. 
                     <strong>Robert Pittman Fellowship recipient</strong> with 7 peer-reviewed publications, 8 patent applications, and C-suite advisory experience across FinTech, HealthTech, and enterprise AI sectors.
@@ -471,8 +538,6 @@
                         <li>Collaborated with regulatory bodies including FDA and NIH on AI governance frameworks and ethical implementation guidelines</li>
                         <li>Mentored 12+ graduate researchers and established university-industry partnerships generating $250K in additional research funding</li>
                     </ul>
-                </div>
-            </div>
                 </div>
 
                 <div class="experience-item">
