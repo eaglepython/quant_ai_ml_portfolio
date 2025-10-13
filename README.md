@@ -250,27 +250,8 @@ quant_ai_ml_portfolio/
 ![GitHub](https://img.shields.io/badge/GitHub-Expert-black.svg)
 
 ---
-- **PhD in Integrative Medicine** | WorldQuantQuantum  University (2022)
-- **Master of Science in Financial Engineering** | WorldQuant University (2025)
-- **Bachelor of Science in Biomedical Engineering** | University of Cameron (2013)
 
-### **Professional Certifications**
-- **Microsoft Certified: Data Scientist Associate** (2020)
-- **AI Solution Architect Certificate** (2024)
-- **Oracle Cloud Infrastructure Architect Associate** (2022)
-- **NPower Full Stack Developer Bootcamp** (2025)
-- **ELVTR AI Engineer/Solution Architect** (2024-2025)
-
-### **Recognition & Publications**
-- **AI 2030 Global Fellow** - International AI governance program
-- **Robert Pittman Fellowship in AI for Health Systems** (2018)
-- **Published Research**: "Responsible AI in Regulated Industries" (15K+ views)
-- **Open Source Contributions**: Hugging Face & LangChain projects
-- **Security Clearance**: U.S. Citizen | Eligible for Public Trust Clearance
-
----
-
-## � Portfolio Architecture & Systems Overview
+##  Portfolio Architecture & Systems Overview
 
 ### **Institutional-Grade Portfolio Structure**
 ```
