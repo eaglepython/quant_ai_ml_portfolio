@@ -10,7 +10,7 @@
 
 </div>
 
-## Executive Portfolio Summary
+## Executive [Portfolio](https://github.com/eaglepython/quant_ai_ml_portfolio/blob/main/Detailled%20Portofolio.md) Summary
 
 **Institutional Value Creation** | **99.7% System Uptime** | **378 Days Live Trading** | **Enterprise-Grade Scalability**
 [<img width="1959" height="833" alt="image" src="https://github.com/user-attachments/assets/be2aaee5-ccff-4f20-8282-48a5e4c06f75" />](https://eaglepython.github.io/quant_ai_ml_portfolio/docs/index.html)
@@ -274,7 +274,7 @@ Joseph-Bidias-Quant-AI-ML-Portfolio/
 📞 **Phone**: (214) 886-3785  
 🔗 **GitHub**: [github.com/eaglepython](https://github.com/eaglepython)  
 💼 **Resume**: [eaglepython.github.io/quant_ai_ml_portfolio/docs/resume.html](https://eaglepython.github.io/quant_ai_ml_portfolio/docs/resume.html)
-📚 **Detailled portofolio**: [https://github.com/eaglepython/quant_ai_ml_portfolio/blob/main/Detailled%20Portofolio.md]
+[📚 **Detailled portofolio**](https://github.com/eaglepython/quant_ai_ml_portfolio/blob/main/Detailled%20Portofolio.md)
 
 ### **Professional Status**
 - **Current Role**: Senior Quantitative Finance Engineer at Bidias Capital Consulting LLC
