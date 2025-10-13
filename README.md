@@ -86,6 +86,52 @@ This portfolio represents the pinnacle of quantitative finance and AI/ML enginee
 **🛠️ Technologies:** Python, SQL, Tableau, Apache Hadoop, Spark, Oracle, Teradata
 
 </details>
+## 🎓 Education & Elite Certifications
+
+### **Academic Excellence**
+- **🎓 PhD in Integrative Medicine** | WorldQuantQuantum University (2022)
+- **🏆 Master of Science in Financial Engineering** | WorldQuant University (2025, GPA: 3.8/4.0)
+- **🔬 Bachelor of Science in Biomedical Engineering** | University of Cameron (2013)
+
+### **Professional Certifications**
+- **🚀 AI Solution Architect Certificate** | ELVTR (2024-2025)
+- **☁️ Microsoft Certified: Data Scientist Associate** (2020)
+- **🔧 Oracle Cloud Infrastructure Architect Associate** (2022)
+- **💻 NPower Full Stack Developer Bootcamp** (2025)
+- **🤖 AI 2030 Global Fellow** - International AI governance program
+
+### **Recognition & Leadership**
+- **🏆 Robert Pittman Fellowship in AI for Health Systems** (2018)
+- **📚 Published Research**: "Responsible AI in Regulated Industries" (15K+ views)
+- **🌐 Open Source Contributions**: Hugging Face & LangChain projects
+- **🛡️ Security Clearance**: U.S. Citizen | Eligible for Public Trust Clearance
+
+## 🛠️ Technology Stack Excellence
+
+### **Advanced Computing Frameworks**
+![Python](https://img.shields.io/badge/Python-Expert_Level-blue.svg)
+![R](https://img.shields.io/badge/R-Advanced-lightblue.svg)
+![SQL](https://img.shields.io/badge/SQL-Expert_Level-orange.svg)
+![JavaScript](https://img.shields.io/badge/JavaScript-Advanced-yellow.svg)
+
+### **AI/ML & Deep Learning**
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Expert_Level-orange.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-Advanced-red.svg)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Expert_Level-green.svg)
+![XGBoost](https://img.shields.io/badge/XGBoost-Advanced-blue.svg)
+
+### **Quantitative Finance & Trading**
+![QuantLib](https://img.shields.io/badge/QuantLib-Advanced-purple.svg)
+![Qiskit](https://img.shields.io/badge/Quantum_Computing-Qiskit-purple.svg)
+![OANDA](https://img.shields.io/badge/Live_Trading-OANDA_API-green.svg)
+![Bloomberg](https://img.shields.io/badge/Market_Data-Bloomberg_Terminal-yellow.svg)
+
+### **Enterprise Infrastructure**
+![AWS](https://img.shields.io/badge/AWS-Advanced-orange.svg)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Advanced-blue.svg)
+![Docker](https://img.shields.io/badge/Docker-Advanced-lightblue.svg)
+![Redis](https://img.shields.io/badge/Redis-Advanced-red.svg)
+
 
 ## 🚀 **Live Production Systems Portfolio**
 
