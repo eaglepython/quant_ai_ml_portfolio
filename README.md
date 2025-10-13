@@ -1202,7 +1202,7 @@ flowchart TB
 
 <div align="center">
 
-## 🎯 **Joseph Bidias, PhD Candidate**
+## 🎯 **Joseph Bidias, PhD **
 ### **Elite Quantitative Research Engineer & AI/ML Specialist**
 
 **🚀 28.4% Live Returns • 🏥 200K+ Users Served • 💻 7+ Years Experience • 🎓 MS Financial Engineering 2025**
