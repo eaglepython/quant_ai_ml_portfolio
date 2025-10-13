@@ -273,6 +273,7 @@ Joseph-Bidias-Quant-AI-ML-Portfolio/
 📞 **Phone**: (214) 886-3785  
 🔗 **GitHub**: [github.com/eaglepython](https://github.com/eaglepython)  
 💼 **Resume**: [eaglepython.github.io/quant_ai_ml_portfolio/docs/resume.html](https://eaglepython.github.io/quant_ai_ml_portfolio/docs/resume.html)
+📚 **Detailled portofolio**: [https://github.com/eaglepython/quant_ai_ml_portfolio/blob/main/Detailled%20Portofolio.md]
 
 ### **Professional Status**
 - **Current Role**: Senior Quantitative Finance Engineer at Bidias Capital Consulting LLC
