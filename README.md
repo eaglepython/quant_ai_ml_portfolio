@@ -16,7 +16,7 @@
 
 [<img width="1959" height="833" alt="image" src="https://github.com/user-attachments/assets/be2aaee5-ccff-4f20-8282-48a5e4c06f75" />](https://eaglepython.github.io/quant_ai_ml_portfolio/docs/index.html)
 
-This portfolio represents the pinnacle of quantitative finance and AI/ML engineering excellence, featuring **13 production-ready systems** delivering **exceptional risk-adjusted returns**, **instituti[...]
+This portfolio represents the pinnacle of quantitative finance and AI/ML engineering excellence, featuring **13 production-ready systems** delivering **exceptional risk-adjusted returns**,
 
 ## 🏆 Elite Performance Metrics Dashboard
 
