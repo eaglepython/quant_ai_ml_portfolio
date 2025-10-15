@@ -280,7 +280,6 @@ Joseph-Bidias-Quant-AI-ML-Portfolio/
 ### **Professional Status**
 - **Current Role**: Senior Quantitative Finance Engineer at Bidias Capital Consulting LLC
 - **Live Systems**: Operating trading platform with 28.4% annual returns
-- **Education**: PhD in Integrative Medicine/Biomedical Engineering & MS Financial Engineering 
 - **Experience**: 10+ years at Apple, Verizon, Texas Health & Human Services
 - **Security**: U.S. Citizen, eligible for Public Trust Clearance
 
