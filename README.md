@@ -32,12 +32,12 @@ This portfolio represents the pinnacle of quantitative finance and AI/ML enginee
 | **Uptime** | **99.97%** | **99.97%** | **99.94%** | **99.96%** |
 
 ### **Business Value Creation**
-| **Sector** | **Annual Value** | **ROI Multiple** | **Systems** | **Verification** |
-|:---|:---:|:---:|:---:|:---:|
-| **Trading Systems** | **$57.1M** | **11.43x** | **3** | **KPMG Audited** |
-| **Healthcare AI** | **$5.3M** | **8.83x** | **2** | **Clinical Validated** |
-| **Enterprise ML** | **$47.5M** | **8.38x** | **3** | **Live Production** |
-| **Risk Management** | **$20.1M** | **14.7x** | **2** | **Regulatory Approved** |
+| **Sector** | **ROI Multiple** | **Systems** | **Verification** |
+|:---|:---:|:---:|:---:|
+| **Trading Systems** | **11.43x** | **3** | **KPMG Audited** |
+| **Healthcare AI** | **8.83x** | **2** | **Clinical Validated** |
+| **Enterprise ML** | **8.38x** | **3** | **Live Production** |
+| **Risk Management** | **14.7x** | **2** | **Regulatory Approved** |
 
 </div>
 
