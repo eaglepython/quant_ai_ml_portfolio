@@ -93,6 +93,7 @@ This portfolio represents the pinnacle of quantitative finance and AI/ML enginee
 
 ### **Academic Excellence**
 
+- **🎓 PhD in Integratve Medicine/ BioMedical Sysems Engineering** | International Quantum  University (2020)
 - **🏆 Master of Science in Financial Engineering** | WorldQuant University (2025, GPA: 3.8/4.0)
 - **🔬 Bachelor of Science in Biomedical Engineering** | University of Cameron (2013)
 
