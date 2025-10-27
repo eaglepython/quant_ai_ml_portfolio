@@ -20,7 +20,9 @@ Healthcare organizations require accurate predictive models to showcases advance
 
 - **Clinical Decision Support**: Provide real-time risk assessment tools for healthcare professionals at point-of-care
 
-This section demonstrates cutting-edge machine learning applications in healthcare, focusing on predictive analytics for diabetes management with real-world deployment on AWS SageMaker. The project showcases end-to-end ML pipeline development from data preprocessing to production deployment.## 🏆 **Model Performance Highlights**
+This section demonstrates cutting-edge machine learning applications in healthcare, focusing on predictive analytics for diabetes management with real-world deployment on AWS SageMaker. The project showcases end-to-end ML pipeline development from data preprocessing to production deployment.
+
+## 🏆 **Model Performance Highlights**
 
 ## Technical Architecture
 
