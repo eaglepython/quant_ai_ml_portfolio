@@ -12,9 +12,7 @@ A comprehensive machine learning platform demonstrating advanced healthcare pred
 
 ## Problem Statement
 
-
-
-Healthcare organizations require accurate predictive models to:## Project OverviewThis section showcases advanced machine learning applications across healthcare, natural language processing, and predictive analytics with demonstrated real-world impact and business value.
+Healthcare organizations require accurate predictive models to showcases advanced machine learning applications across healthcare, natural language processing, and predictive analytics with demonstrated real-world impact and business value.
 
 - **Early Disease Detection**: Identify high-risk diabetes patients for preventive intervention before clinical symptoms appear
 
