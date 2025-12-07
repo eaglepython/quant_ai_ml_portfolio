@@ -46,7 +46,6 @@ This portfolio represents the pinnacle of quantitative finance and AI/ML enginee
 ### **🔹 Senior Quantitative Finance Engineer | Bidias Capital Consulting LLC (2024 - Present)**
 
 **Elite Trading Performance:**
-- ✅ **$95.087M annual value creation** through live trading systems
 - ✅ **378 days continuous operation** with 99.97% uptime
 - ✅ **48.6% annual returns** with quantum trading algorithms
 - ✅ **5μs prediction latency** in high-frequency trading systems
