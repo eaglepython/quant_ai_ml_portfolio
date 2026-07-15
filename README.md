@@ -39,75 +39,7 @@ This portfolio represents the pinnacle of quantitative finance and AI/ML enginee
 | **Enterprise ML** | **8.38x** | **3** | **Live Production** |
 | **Risk Management** | **14.7x** | **2** | **Regulatory Approved** |
 
-</div>
 
-## Professional Experience & Impact
-
-### **🔹 Senior Quantitative Finance Engineer | Bidias Capital Consulting LLC (2024 - Present)**
-
-**Elite Trading Performance:**
-- ✅ **378 days continuous operation** with 99.97% uptime
-- ✅ **48.6% annual returns** with quantum trading algorithms
-- ✅ **5μs prediction latency** in high-frequency trading systems
-- ✅ **$250M+ AUM capacity** demonstrated with linear scalability
-
-**🛠️ Technologies:** PyTorch, Qiskit, CUDA, WebSocket, Redis, Kubernetes
-
-### **🔹 Data Science Analyst - Tech Solutions | Verizon (June 2022 - February 2025)**
-
-**Enterprise Scale Impact:**
-- ✅ **$100.5M AI solution value** through enterprise system architecture
-- ✅ **10M+ daily users** served through production ML pipelines
-- ✅ **99.9% system uptime** across 15+ business-critical applications
-- ✅ **85% operational cost reduction** through AI automation
-- ✅ **$50B+ revenue infrastructure** optimization and analytics
-
-**🛠️ Technologies:** Python, Apache Spark, Kubernetes, PostgreSQL, Redis, AWS
-
-### **🔹 Healthcare Technology & AI Engineer | Texas Health & Human Services (February 2020 - June 2022)**
-
-**Healthcare Innovation Leadership:**
-- ✅ **$5.3M+ annual healthcare savings** through predictive AI systems
-- ✅ **200K+ patient records** analyzed daily with 95%+ accuracy
-- ✅ **25% reduction in cardiovascular events** through real-time monitoring
-- ✅ **HIPAA-compliant ML platforms** with advanced privacy preservation
-- ✅ **300+ healthcare providers** using real-time clinical decision support
-
-**🛠️ Technologies:** TensorFlow, scikit-learn, FHIR, HL7, React, Node.js, MongoDB
-
-### **🔹 Data Analyst - Product Development | Apple Inc. (September 2014 - December 2019)**
-
-**Global Product Impact:**
-- ✅ **$50B+ annual revenue** product lines supported by predictive models
-- ✅ **ETL pipelines** processing data from 40+ countries
-- ✅ **Millions of customers** impacted through advanced analytics
-- ✅ **Executive-level dashboards** and business intelligence infrastructure
-- ✅ **Cross-functional leadership** with hardware and software engineering teams
-
-**🛠️ Technologies:** Python, SQL, Tableau, Apache Hadoop, Spark, Oracle, Teradata
-
-</details>
-
-## **🎓 Education & Elite Certifications**
-
-### **Academic Excellence**
-
-- **🎓 PhD in Integratve Medicine/ BioMedical Sysems Engineering** | International Quantum  University (2020)
-- **🏆 Master of Science in Financial Engineering** | WorldQuant University (2025, GPA: 3.8/4.0)
-- **🔬 Bachelor of Science in Biomedical Engineering** | University of Cameron (2013)
-
-### **Professional Certifications**
-- **🚀 AI Solution Architect Certificate** | ELVTR (2024-2025)
-- **☁️ Microsoft Certified: Data Scientist Associate** (2020)
-- **🔧 Oracle Cloud Infrastructure Architect Associate** (2022)
-- **💻 NPower Full Stack Developer Bootcamp** (2025)
-- **🤖 AI 2030 Global Fellow** - International AI governance program
-
-### **Recognition & Leadership**
-- **🏆 Robert Pittman Fellowship in AI for Health Systems** (2018)
-- **📚 Published Research**: "Responsible AI in Regulated Industries" (15K+ views)
-- **🌐 Open Source Contributions**: Hugging Face & LangChain projects
-- **🛡️ Security Clearance**: U.S. Citizen | Eligible for Public Trust Clearance
 
 ## 🛠️ Technology Stack Excellence
 
